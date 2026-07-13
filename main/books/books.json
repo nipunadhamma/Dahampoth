@@ -1,0 +1,66 @@
+[
+  {
+    "title": "මහා මංගල සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "mangala-suththa",
+    "cover": "main/books/books-png/mangala-suththa.jpeg",
+    "url": "https://suththa.org/mangala-suththa/index.html",
+    "category": 3
+  },
+  {
+    "title": "විතක්ක සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "vithakka-suththa-01",
+    "cover": "main/books/books-png/vithakka-suththa-01.png",
+    "url": "https://suththa.org/vithakka-suththa-01/index.html",
+    "category": 3
+  },
+  {
+    "title": "වුට්ඨි සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "wutti-suththa-02",
+    "cover": "main/books/books-png/wutti-suththa-02.png",
+    "url": "https://suththa.org/wutti-suththa-02/index.html",
+    "category": 3
+  },
+  {
+    "title": "අද්ධා සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "adda-suththa-03",
+    "cover": "main/books/books-png/adda-suththa-03.png",
+    "url": "https://suththa.org/adda-suththa-03/index.html",
+    "category": 3
+  },
+  {
+    "title": "නිස්සරණිය සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "nissaraniya-suththa-04",
+    "cover": "main/books/books-png/nissaraniya-suththa-04.png",
+    "url": "https://suththa.org/nissaraniya-suththa-04/index.html",
+    "category": 3
+  },
+  {
+    "title": "සන්ති සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "santhi-suththa-05",
+    "cover": "main/books/books-png/santhi-suththa-05.png",
+    "url": "https://suththa.org/santhi-suththa-05/index.html",
+    "category": 3
+  },
+  {
+    "title": "දහම් සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "dhaham-guna-06",
+    "cover": "main/books/books-png/dhaham-guna-06.png",
+    "url": "https://suththa.org/dhaham-guna-06/index.html",
+    "category": 3
+  },
+  {
+    "title": "ලෝක සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "loka-suththa-07",
+    "cover": "",
+    "url": "https://suththa.org/loka-suththa-07/index.html",
+    "category": 3
+  }
+]

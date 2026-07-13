@@ -1,0 +1,17 @@
+[
+ {
+  "title":"මංගල සූත්‍රය",
+  "cover":"book cover/book-cover1.png",
+  "url":"books/mangala-suththa/index.html"
+ },
+ {
+  "title":"ආනාපාන සති භාවනා",
+  "cover":"book cover/anapana.png",
+  "url":"books/anapana/index.html"
+ },
+ {
+  "title":"මෙත්තා භාවනාව",
+  "cover":"book cover/metta.png",
+  "url":"books/metta/index.html"
+ }
+]

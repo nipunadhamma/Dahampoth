@@ -1,0 +1,173 @@
+/* =====================================
+   මූලික සැකසුම් (Basic Settings)
+===================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Serif Sinhala", 'Segoe UI', serif;
+    background: #d9c59b;
+    /* පුස්කොළ වර්ණය */
+    background-image:
+        radial-gradient(circle at top left, #f4e6c3 0%, transparent 45%),
+        repeating-linear-gradient(0deg, rgba(255, 255, 255, .04), rgba(255, 255, 255, .04) 2px, rgba(0, 0, 0, .02) 2px, rgba(0, 0, 0, .02) 4px);
+    color: #4a3728;
+    min-height: 100vh;
+    padding-bottom: 70px;
+}
+
+/* =====================================
+   HEADER & NAVIGATION
+===================================== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: linear-gradient(#8b5a2b, #684122);
+    color: #fff3d0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+.right-icons {
+    display: flex;
+    gap: 8px;
+}
+
+.icon-btn {
+    background: #ecd2a0;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #603913;
+    transition: 0.3s;
+}
+
+.icon-btn:hover {
+    background: #fff2cf;
+}
+
+/* =====================================
+   HERO SECTION
+===================================== */
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+/* =====================================
+   GRID MENU (4 Buttons)
+===================================== */
+.grid-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 15px;
+}
+
+.card {
+    background: #e6cfa7;
+    border: 1px solid #c19a6b;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color: #4a3728;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.card .material-icons {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.card:active {
+    transform: scale(0.95);
+    background: #d4bc94;
+}
+
+/* =====================================
+   BOOK CONTAINER (6 Books)
+===================================== */
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Mobile: 2 */
+    gap: 15px;
+    padding: 15px;
+}
+
+@media (min-width: 768px) {
+    .book-container {
+        grid-template-columns: repeat(6, 1fr);
+        /* Desktop: 6 */
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+.book-card {
+    text-decoration: none;
+    color: #4a3728;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-card:hover img {
+    transform: scale(1.05);
+}
+
+/* =====================================
+   BOTTOM NAVIGATION
+===================================== */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #5d4037;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+    color: white;
+}
+
+.bottom-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>දහම් පොත්</title>
+
+    <meta name="description" content="ත්‍රිපිටකය ආශ්‍රිත පොත්">
+    <meta name="keywords" content="Buddhist books, dhamma, pitaka, tripitaka, dharmadesana, Sinhala books">
+    <link rel="canonical" href="https://www.books.nipunadhamma.org">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="main/common/main-style.css">
+    <link rel="stylesheet" href="main/common/book.css" />
+    <link rel="stylesheet" href="main/common/mybook.css" />
+    
+</head>
+
+<body>
+   
+    <header class="header-actions">
+        <button class="icon-btn" onclick="toggleMenu()" title="මෙනුව">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <h1>දහම් පොත්</h1>
+
+        <div class="right-icons">
+            <button class="icon-btn" onclick="bookmarks()" title="සුරකින ලද පිටු">
+                <span class="material-icons">bookmark</span>
+            </button>
+            <button class="icon-btn" onclick="gohome()" title="මුල් පිටුව">
+            <span class="material-icons">home</span>
+            </button>
+            <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="Dark Mode">
+                <span class="material-icons" id="themeIcon">dark_mode</span>
+            </button>
+            <button class="icon-btn" onclick="search()" title="සෙවීම">
+                <span class="material-icons">search</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="main/common/images/banner-image.png" alt="දහම් පොත්" class="hero-image">
+            <p>දහම දැනුමයි, නිවහල් මඟයි.</p>
+        </div>
+
+        <div class="grid-menu">
+            <button class="card" onclick="location.href='all-books.html'">
+                <span class="material-icons">#</span> සියලු දහම් පොත්
+            </button>
+            <button class="card" onclick="location.href='main/books/bookmarks.html'">
+                <span class="material-icons">bookmark</span> පිටු සලකුණු
+            </button>
+            <button class="card" onclick="location.href='#'">
+                <span class="material-icons">history</span> අවසන් කියවු
+            </button>
+            <button class="card" onclick="location.href='#'">
+                <span class="material-icons">download</span> බාගත කල පොත්
+            </button>
+        </div>
+
+        <div class="book-container" id="latestBooks">
+            <!-- පොත් මෙතනට auto load වෙනවා -->
+        </div>
+    </main>
+
+    <nav class="bottom-nav">
+        <a href="main/books/index.html"><i class="fas fa-home"></i> මුල් පිටුව</a>
+        <a href="#"><i class="fas fa-book"></i> පොත්</a>
+        <a href="main/search.html"><i class="fas fa-search"></i> සෙවීම</a>
+        <a href="#"><i class="fas fa-cog"></i> සැකසුම්</a>
+    </nav>
+    <script>
+        function bookmarks() {
+            // බටන් එක ක්ලික් කළ විට books ෆෝල්ඩරයේ ඇති bookmarks.html එකට යයි
+            window.location.href = "main/books/bookmarks.html";
+        }
+        function gohome() {
+                // ../ මගින් දැනට ඉන්න 'books' ෆෝල්ඩරයෙන් එළියට විත් 'index.html' එක සොයයි
+                window.location.href = "main/books/index.html";
+            }
+        function search() {
+            // ../ මගින් දැනට ඉන්න 'books' ෆෝල්ඩරයෙන් එළියට විත් 'search.html' එක සොයයි
+            window.location.href = "main/search.html";
+        }
+
+    </script>
+
+   <script src="main/common/latest-books.js"></script>
+<script src="main/common/jquery-3.4.1.min.js"></script>
+<script src="main/common/clipboard.min.js"></script>
+<script src="main/common/book.js"></script>
+<script src="main/common/mytheme.js"></script>
+
+</body>
+
+</html>

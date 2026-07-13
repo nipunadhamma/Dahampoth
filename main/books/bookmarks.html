@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+
+<title>Bookmarks | නිපුණධම්ම පුස්තකාලය</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!-- SEO -->
+<meta name="description" content="
+නිපුණධම්ම පුස්තකාලයේ ඔබ සුරකින ලද ධර්ම පොත් සහ කියවීම් පිටු.
+Sinhala Buddhist Books, Dhamma Books Sinhala, Buddhist Library.
+">
+
+
+<meta name="keywords" content="
+බෞද්ධ පොත්,
+ධර්ම පොත්,
+දහම් පොත්,
+සිංහල බෞද්ධ පොත්,
+Sinhala Dhamma Books,
+Buddhist Books Sinhala,
+Dhamma Books Sinhala,
+Buddhist Library,
+නිවන් මග,
+භාවනා පොත්,
+">
+
+
+<meta name="author" content="Nipunadhamma Buddhist Library">
+
+
+<meta name="robots" content="index, follow">
+
+
+<link rel="canonical" href="https://www.nipunadhamma.org/bookmarks.html">
+
+
+
+<!-- Open Graph Facebook / WhatsApp -->
+
+<meta property="og:type" content="website">
+
+<meta property="og:title" content="Bookmarks | නිපුණධම්ම පුස්තකාලය">
+
+<meta property="og:description" content="
+ඔබ සුරකින ලද බෞද්ධ ධර්ම පොත් සහ කියවීම් පිටු.
+">
+
+<meta property="og:url" content="https://www.nipunadhamma.org/bookmarks.html">
+
+<meta property="og:image" content="https://www.nipunadhamma.org/images/og-books.png">
+
+<meta property="og:image:type" content="image/png">
+
+<meta property="og:image:width" content="1200">
+
+<meta property="og:image:height" content="630">
+
+
+<!-- Twitter / X Card -->
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title" content="Bookmarks | නිපුණධම්ම පුස්තකාලය">
+
+<meta name="twitter:description" content="
+Sinhala Buddhist Dhamma Books Library.
+">
+
+<meta name="twitter:image" content="https://www.nipunadhamma.org/images/og-books.png">
+
+
+
+<!-- Apple -->
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="apple-mobile-web-app-title" content="Nipunadhamma Books">
+
+
+<link rel="apple-touch-icon" href="common/icon-192.png">
+
+
+
+<!-- Android PWA -->
+
+<link rel="manifest" href="common/manifest.json">
+
+<!-- Removed theme-color meta tags for better Firefox compatibility -->
+
+
+
+<!-- Favicon -->
+
+<link rel="icon" type="image/png" sizes="192x192" href="common/icon-192.png">
+
+<link rel="icon" type="image/png" sizes="512x512" href="common/icon-512.png">
+
+
+
+<!-- Material Icons -->
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="96x96" href="../common/favicon-96x96.png">
+    <link rel="stylesheet" href="../common/book.css" />
+    <link rel="stylesheet" href="../common/mybook.css" />
+</head>
+
+<body>
+
+<header>
+
+    <h1>පොත් ලැයිස්තුව</h1>
+
+    <div class="header-actions">
+
+    
+
+        <!-- Home -->
+        <button class="icon-btn" onclick="gohome()" title="මුල් පිටුව">
+            <span class="material-icons">home</span>
+        </button>
+
+        <!-- Dark Mode -->
+        <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="Dark Mode">
+            <span class="material-icons" id="themeIcon">dark_mode</span>
+        </button>
+
+    </div>
+
+</header>
+
+
+    <div book-folder="." class="bookmarks-container">
+        <div class="title-bar">
+            <a href="./index.html" class="home-link"><i class="material-icons title-icon">home</i></a>
+            <span class="title-bar-text">තරු යෙදූ මාතෘකා</span>
+            <i class="material-icons title-icon" id="dark-mode-toggle">dark_mode</i>
+        </div>
+        <div class="notice">සටහන් තැබීමට මාතෘකා ඉදිරියෙන් ඇති තරු ලකුණ <i class="material-icons">star_outline</i> මත
+            ඔබන්න.</div>
+
+        <table class="bookmarks">
+            <thead>
+                <tr>
+                    <th>දිනය</th>
+                    <th>පොත / මාතෘකාව</th>
+                </tr>
+            </thead>
+            <tbody id="bookmarksBody">
+            </tbody>
+        </table>
+
+    </div>
+    <div id="toast"></div>
+    <script src="../common/jquery-3.4.1.min.js"></script>
+    <script src="../common/clipboard.min.js"></script>
+    <script src="../common/book.js"></script>
+    <script src="../common/mytheme.js"></script>
+    <script>
+        // sort by timestamp and then bookname
+        const navigateNext = '<i class="material-icons">keyboard_double_arrow_right</i>'
+        const trs = Object.values(bookmarks).sort((a, b) => b.time - a.time || a.book.name.localeCompare(b.book.name)).map(b => {
+            const titles = b.ids.map((id, i) => `<a href=${getBookmarkHref(b.book.folder, b.ids.slice(0, i + 1))}>${b.headings[i]}</a>`)
+                .join(navigateNext)
+            return `<tr>
+                <td>${new Date(b.time).toISOString().slice(0, 10)}</td>
+                <td><a href="${b.book.folder}/index.html">${b.book.name}</a>${navigateNext}${titles}
+                    <i class="material-icons star-icon" data-bookmark='${JSON.stringify(b)}'>star</i></td>
+            </tr>`
+        }).join('\n')
+
+        function gohome() {
+                // ../ මගින් දැනට ඉන්න 'books' ෆෝල්ඩරයෙන් එළියට විත් 'index.html' එක සොයයි
+                window.location.href = "./index.html";
+            }
+        
+                
+    
+    </script>
+</body>
+
+</html>

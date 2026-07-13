@@ -27,10 +27,16 @@ function buildBooksJSON() {
 
     return {
       title: book.name.trim(),
+
       author: book.author,
+
       folder: book.folder,
+
       cover: cover || "",
-      url: `${siteUrl}/${book.folder}/index.html`,
+
+      // FIXED BOOK URL
+      url: `${siteUrl}/main/books/${book.folder}/index.html`,
+
       category: book.group,
     };
   });

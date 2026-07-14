@@ -88,6 +88,12 @@ const reprocessAll = false; // process all books even without the 'gen' prop as 
 
     let htmlFile = `${__dirname}/input/${book.folder}.html`;
 
+    const htmlExists = fs.existsSync(htmlFile);
+
+    if (htmlExists && !book.force) {
+      console.log(`⏭️ Skip HTML generation: ${book.name}`);
+    }
+
     /*
         =====================================
         STEP 1
@@ -95,7 +101,7 @@ const reprocessAll = false; // process all books even without the 'gen' prop as 
         =====================================
         */
 
-    if (book.source === "docx") {
+    if (book.source === "docx" && (!fs.existsSync(htmlFile) || book.force)) {
       console.log("📄 Generating HTML from DOCX");
 
       const mRes = await mammoth.convertToHtml(

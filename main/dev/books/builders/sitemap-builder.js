@@ -7,14 +7,24 @@ const { bookList } = require("../config/bookList");
 function buildSitemap() {
   const output = path.join(__dirname, "../../../books/sitemap.xml");
 
- const baseURL = "https://suththa.org";
+  const baseURL = "https://suththa.org";
 
   let urls = "";
 
+  // About page
+  urls += `
+<url>
+    <loc>${baseURL}/about.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+</url>
+`;
+
+  // Books pages
   bookList.forEach((book) => {
     urls += `
 <url>
-    <loc>${baseURL}/${book.folder}/index.html</loc>
+    <loc>${baseURL}/main/books/${book.folder}/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>

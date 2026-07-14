@@ -145,8 +145,14 @@ h1 {
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 2.1rem;
     font-weight: normal;
+    border-bottom: 2px solid #f1c40f;
+                /* රන්වන් පාටින් රේඛාවක් */
+    padding-bottom: 10px;
+                 /* මාතෘකාවට සහ රේඛාවට අතර ඉඩ */
+    display: inline-block;
+                 /* මාතෘකාවේ දිගටම රේඛාව තිබීමට */
 }
 
 h3,
@@ -254,8 +260,29 @@ h4 {
 .subhead {
     color: var(--error-color);
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+       
+        
+        
 }
+
+.subhead {
+    /* රේඛාවේ විලාසය */
+    border-bottom: 2px solid #1a5276;
+    /* රේඛාවේ වර්ණය සහ ඝනකම */
+    padding-bottom: 10px;
+    /* මාතෘකාව සහ රේඛාව අතර ඉඩ */
+    margin-top: 40px;
+    /* මාතෘකාවට ඉහළින් ඉඩ */
+    display: block;
+    /* මෙය මගින් රේඛාව සම්පූර්ණ පළලට විහිදේ */
+}
+
+
+
+
+
 
 /* headings that are not in TOC */
 .subhead>p {
@@ -594,4 +621,10 @@ table.max-width thead {
 
  #toast.show {
      visibility: visible;
+ }
+
+ p {
+     margin-bottom: 30px;
+     
+     
  }

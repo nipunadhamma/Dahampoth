@@ -31,8 +31,11 @@ const bookList = [
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2015, 2016],
     source: "docx",
+    featured: true,
+    order: 6,
 
     output: "web",
+    force: true,
   },
   {
     name: "විතක්ක සූත්‍රය ",
@@ -44,6 +47,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: true,
   },
   {
     name: "වුට්ඨි සූත්‍රය ",
@@ -55,6 +59,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "අද්ධා සූත්‍රය ",
@@ -66,6 +71,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "නිස්සරණිය සූත්‍රය ",
@@ -77,6 +83,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "සන්ති සූත්‍රය ",
@@ -88,6 +95,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "දහම් ගුණ",
@@ -99,6 +107,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "ලෝක සූත්‍රය",
@@ -110,6 +119,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "පසන්න චිත්ත සූත්‍රය",
@@ -119,8 +129,11 @@ const bookList = [
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2030, 2031],
     source: "docx",
+    featured: true,
+    order: 5,
 
     output: "web",
+    force: false,
   },
   {
     name: "පදුට්ඨ පුද්ගල සූත්‍රය",
@@ -130,8 +143,11 @@ const bookList = [
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2032, 2033],
     source: "docx",
+    featured: true,
+    order: 4, 
 
     output: "web",
+    force: false,
   },
   {
     name: "මිච්ඡාදිට්ඨි කම්ම සමාදාන සූත්‍රය",
@@ -143,6 +159,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "චතුචක්ක සූත්‍රය",
@@ -154,6 +171,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "නත්ථි පුත්ත  සූත්‍රය",
@@ -165,6 +183,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "නන්දති සූත්‍රය",
@@ -176,6 +195,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "ඵුසති සූත්‍රය",
@@ -187,6 +207,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "පුරුස පියරූප සූත්‍රය",
@@ -198,18 +219,9 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
-  {
-    name: "පුරුස පියරූප සූත්‍රය",
-    author: "දොලොස්වල උදිතධීර හිමි",
-    folder: "purusa-piyarupa suththa12",
-    cover: "books-png/purusa-piyarupa suththa12.png",
-    group: 3,
-    files: ["දොලොස්වල උදිතධීර හිමි", 2045, 2046],
-    source: "docx",
-
-    output: "web",
-  },
+ 
   {
     name: "උපසමානුස්සති භාවනාව",
     author: "දොලොස්වල උදිතධීර හිමි",
@@ -220,6 +232,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "පංච උපාදානස්කන්ධය",
@@ -231,6 +244,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "ඉරියාපත භාවනාව",
@@ -242,6 +256,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "චිත්තානුපස්සනාව",
@@ -253,6 +268,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "අටමහා නිරය",
@@ -262,8 +278,11 @@ const bookList = [
     group: 1,
     files: ["දොලොස්වල උදිතධීර හිමි", 2052, 2053],
     source: "docx",
+    featured: true,
+    order: 3,
 
     output: "web",
+    force: false,
   },
   {
     name: "ආර්ය අෂ්ටාංගික මාර්ගය",
@@ -275,6 +294,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
   },
   {
     name: "ආනාපානසති භාවනාව",
@@ -284,8 +304,11 @@ const bookList = [
     group: 4,
     files: ["දොලොස්වල උදිතධීර හිමි", 2055, 2056],
     source: "docx",
+    featured: true,
+    order: 1,
 
     output: "web",
+    force: false,
   },
   {
     name: "මා දුටු භාවනා යෝගීහු",
@@ -295,8 +318,11 @@ const bookList = [
     group: 5,
     files: [" ", 2057, 2058],
     source: "docx",
+    featured: true,
+    order: 2,
 
     output: "web",
+    force: false,
   },
 ];
 

@@ -5,42 +5,39 @@ fetch("main/books/books.json")
 
     if (!container) return;
 
-   books.slice(0, 6).forEach((book) => {
+    books
+      .filter((book) => book.featured)
+      .sort((a, b) => a.order - b.order)
+      .slice(0, 6)
+      .forEach((book) => {
+        const card = document.createElement("a");
 
-    const card = document.createElement("a");
+        card.className = "book-card";
 
-    card.className = "book-card";
+        card.href = book.url;
 
-    card.href = book.url;
+        const img = document.createElement("img");
 
+        img.src = book.cover || "main/common/images/book-placeholder.png";
 
-    const img = document.createElement("img");
+        img.alt = book.title;
 
-    img.src = book.cover || "main/common/images/book-placeholder.png";
+        card.appendChild(img);
 
-    img.alt = book.title;
+        const title = document.createElement("h3");
 
-    card.appendChild(img);
+        title.textContent = book.title;
 
+        card.appendChild(title);
 
-    const title = document.createElement("h3");
+        if (book.author) {
+          const author = document.createElement("p");
 
-    title.textContent = book.title;
+          author.textContent = book.author;
 
-    card.appendChild(title);
+          card.appendChild(author);
+        }
 
-
-    if (book.author) {
-
-        const author = document.createElement("p");
-
-        author.textContent = book.author;
-
-        card.appendChild(author);
-
-    }
-
-
-    container.appendChild(card);
+        container.appendChild(card);
+      });
   });
-});

@@ -5,7 +5,9 @@
     "folder": "mangala-suththa",
     "cover": "main/books/books-png/mangala-suththa.png",
     "url": "https://suththa.org/main/books/mangala-suththa/index.html",
-    "category": 3
+    "category": 3,
+    "featured": true,
+    "order": 6
   },
   {
     "title": "විතක්ක සූත්‍රය",
@@ -13,7 +15,9 @@
     "folder": "vithakka-suththa-01",
     "cover": "",
     "url": "https://suththa.org/main/books/vithakka-suththa-01/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "වුට්ඨි සූත්‍රය",
@@ -21,7 +25,9 @@
     "folder": "wutti-suththa-02",
     "cover": "",
     "url": "https://suththa.org/main/books/wutti-suththa-02/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "අද්ධා සූත්‍රය",
@@ -29,7 +35,9 @@
     "folder": "adda-suththa-03",
     "cover": "",
     "url": "https://suththa.org/main/books/adda-suththa-03/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "නිස්සරණිය සූත්‍රය",
@@ -37,7 +45,9 @@
     "folder": "nissaraniya-suththa-04",
     "cover": "",
     "url": "https://suththa.org/main/books/nissaraniya-suththa-04/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "සන්ති සූත්‍රය",
@@ -45,7 +55,9 @@
     "folder": "santhi-suththa-05",
     "cover": "",
     "url": "https://suththa.org/main/books/santhi-suththa-05/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "දහම් ගුණ",
@@ -53,7 +65,9 @@
     "folder": "dhaham-guna-06",
     "cover": "",
     "url": "https://suththa.org/main/books/dhaham-guna-06/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "ලෝක සූත්‍රය",
@@ -61,7 +75,9 @@
     "folder": "loka-suththa-07",
     "cover": "",
     "url": "https://suththa.org/main/books/loka-suththa-07/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "පසන්න චිත්ත සූත්‍රය",
@@ -69,7 +85,9 @@
     "folder": "pasanna-chiththa suththa",
     "cover": "main/books/books-png/pasanna-chiththa suththa.png",
     "url": "https://suththa.org/main/books/pasanna-chiththa suththa/index.html",
-    "category": 3
+    "category": 3,
+    "featured": true,
+    "order": 5
   },
   {
     "title": "පදුට්ඨ පුද්ගල සූත්‍රය",
@@ -77,7 +95,9 @@
     "folder": "padutta-puggala-suththa",
     "cover": "main/books/books-png/padutta-puggala-suththa.png",
     "url": "https://suththa.org/main/books/padutta-puggala-suththa/index.html",
-    "category": 3
+    "category": 3,
+    "featured": true,
+    "order": 4
   },
   {
     "title": "මිච්ඡාදිට්ඨි කම්ම සමාදාන සූත්‍රය",
@@ -85,7 +105,9 @@
     "folder": "michhaditti-kamma-samadana-suththa-06",
     "cover": "",
     "url": "https://suththa.org/main/books/michhaditti-kamma-samadana-suththa-06/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "චතුචක්ක සූත්‍රය",
@@ -93,7 +115,9 @@
     "folder": "chathchakka-suththa-09",
     "cover": "",
     "url": "https://suththa.org/main/books/chathchakka-suththa-09/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "නත්ථි පුත්ත  සූත්‍රය",
@@ -101,7 +125,9 @@
     "folder": "naththi-puththa-suththa-10",
     "cover": "",
     "url": "https://suththa.org/main/books/naththi-puththa-suththa-10/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "නන්දති සූත්‍රය",
@@ -109,7 +135,9 @@
     "folder": "nandathi-suththa-11",
     "cover": "",
     "url": "https://suththa.org/main/books/nandathi-suththa-11/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "ඵුසති සූත්‍රය",
@@ -117,7 +145,9 @@
     "folder": "pusathi-suththa-08",
     "cover": "",
     "url": "https://suththa.org/main/books/pusathi-suththa-08/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "පුරුස පියරූප සූත්‍රය",
@@ -125,15 +155,9 @@
     "folder": "purusa-piyarupa suththa12",
     "cover": "",
     "url": "https://suththa.org/main/books/purusa-piyarupa suththa12/index.html",
-    "category": 3
-  },
-  {
-    "title": "පුරුස පියරූප සූත්‍රය",
-    "author": "දොලොස්වල උදිතධීර හිමි",
-    "folder": "purusa-piyarupa suththa12",
-    "cover": "",
-    "url": "https://suththa.org/main/books/purusa-piyarupa suththa12/index.html",
-    "category": 3
+    "category": 3,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "උපසමානුස්සති භාවනාව",
@@ -141,7 +165,9 @@
     "folder": "upasama-anussathiya",
     "cover": "",
     "url": "https://suththa.org/main/books/upasama-anussathiya/index.html",
-    "category": 4
+    "category": 4,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "පංච උපාදානස්කන්ධය",
@@ -149,7 +175,9 @@
     "folder": "pancha-upadanaskandaya",
     "cover": "",
     "url": "https://suththa.org/main/books/pancha-upadanaskandaya/index.html",
-    "category": 1
+    "category": 1,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "ඉරියාපත භාවනාව",
@@ -157,7 +185,9 @@
     "folder": "iriyapatha-bhawanawa",
     "cover": "",
     "url": "https://suththa.org/main/books/iriyapatha-bhawanawa/index.html",
-    "category": 4
+    "category": 4,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "චිත්තානුපස්සනාව",
@@ -165,7 +195,9 @@
     "folder": "chiththanupassana",
     "cover": "",
     "url": "https://suththa.org/main/books/chiththanupassana/index.html",
-    "category": 4
+    "category": 4,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "අටමහා නිරය",
@@ -173,7 +205,9 @@
     "folder": "atamaha-niraya",
     "cover": "main/books/books-png/atamaha-niraya.png",
     "url": "https://suththa.org/main/books/atamaha-niraya/index.html",
-    "category": 1
+    "category": 1,
+    "featured": true,
+    "order": 3
   },
   {
     "title": "ආර්ය අෂ්ටාංගික මාර්ගය",
@@ -181,7 +215,9 @@
     "folder": "arya-astangika -magga",
     "cover": "",
     "url": "https://suththa.org/main/books/arya-astangika -magga/index.html",
-    "category": 1
+    "category": 1,
+    "featured": false,
+    "order": 999
   },
   {
     "title": "ආනාපානසති භාවනාව",
@@ -189,7 +225,9 @@
     "folder": "anapana-sathi-bhavana",
     "cover": "main/books/books-png/anapana-sathi-bhavana.png",
     "url": "https://suththa.org/main/books/anapana-sathi-bhavana/index.html",
-    "category": 4
+    "category": 4,
+    "featured": true,
+    "order": 1
   },
   {
     "title": "මා දුටු භාවනා යෝගීහු",
@@ -197,6 +235,8 @@
     "folder": "madutu-bhawana-yogiyo",
     "cover": "main/books/books-png/madutu-bhawana-yogiyo.png",
     "url": "https://suththa.org/main/books/madutu-bhawana-yogiyo/index.html",
-    "category": 5
+    "category": 5,
+    "featured": true,
+    "order": 2
   }
 ]

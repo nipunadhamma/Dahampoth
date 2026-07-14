@@ -38,6 +38,11 @@ function buildBooksJSON() {
       url: `${siteUrl}/main/books/${book.folder}/index.html`,
 
       category: book.group,
+
+      // Featured Books settings
+      featured: book.featured || false,
+
+      order: book.order || 999,
     };
   });
 
@@ -47,3 +52,7 @@ function buildBooksJSON() {
 }
 
 module.exports = buildBooksJSON;
+
+if (require.main === module) {
+  buildBooksJSON();
+}

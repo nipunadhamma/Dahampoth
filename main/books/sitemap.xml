@@ -4,145 +4,211 @@
 
 
 <url>
-    <loc>https://suththa.org/mangala-suththa/index.html</loc>
+    <loc>https://suththa.org/about.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/mangala-suththa/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/vithakka-suththa-01/index.html</loc>
+    <loc>https://suththa.org/main/books/vithakka-suththa-01/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/wutti-suththa-02/index.html</loc>
+    <loc>https://suththa.org/main/books/wutti-suththa-02/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/adda-suththa-03/index.html</loc>
+    <loc>https://suththa.org/main/books/adda-suththa-03/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/nissaraniya-suththa-04/index.html</loc>
+    <loc>https://suththa.org/main/books/nissaraniya-suththa-04/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/santhi-suththa-05/index.html</loc>
+    <loc>https://suththa.org/main/books/santhi-suththa-05/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/dhaham-guna-06/index.html</loc>
+    <loc>https://suththa.org/main/books/dhaham-guna-06/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/loka-suththa-07/index.html</loc>
+    <loc>https://suththa.org/main/books/loka-suththa-07/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/pasanna-chiththa suththa/index.html</loc>
+    <loc>https://suththa.org/main/books/pasanna-chiththa suththa/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/padutta-puggala-suththa/index.html</loc>
+    <loc>https://suththa.org/main/books/padutta-puggala-suththa/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/michhaditti-kamma-samadana-suththa-06/index.html</loc>
+    <loc>https://suththa.org/main/books/michhaditti-kamma-samadana-suththa-06/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/chathchakka-suththa-09/index.html</loc>
+    <loc>https://suththa.org/main/books/chathchakka-suththa-09/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/naththi-puththa-suththa-10/index.html</loc>
+    <loc>https://suththa.org/main/books/naththi-puththa-suththa-10/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/nandathi-suththa-11/index.html</loc>
+    <loc>https://suththa.org/main/books/nandathi-suththa-11/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/pusathi-suththa-08/index.html</loc>
+    <loc>https://suththa.org/main/books/pusathi-suththa-08/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/purusa-piyarupa suththa12/index.html</loc>
+    <loc>https://suththa.org/main/books/purusa-piyarupa suththa12/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/upasama-anussathiya/index.html</loc>
+    <loc>https://suththa.org/main/books/upasama-anussathiya/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/pancha-upadanaskandaya/index.html</loc>
+    <loc>https://suththa.org/main/books/pancha-upadanaskandaya/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/iriyapatha-bhawanawa/index.html</loc>
+    <loc>https://suththa.org/main/books/iriyapatha-bhawanawa/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/chiththanupassana/index.html</loc>
+    <loc>https://suththa.org/main/books/chiththanupassana/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/atamaha-niraya/index.html</loc>
+    <loc>https://suththa.org/main/books/atamaha-niraya/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/arya-astangika -magga/index.html</loc>
+    <loc>https://suththa.org/main/books/arya-astangika -magga/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/anapana-sathi-bhavana/index.html</loc>
+    <loc>https://suththa.org/main/books/anapana-sathi-bhavana/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://suththa.org/madutu-bhawana-yogiyo/index.html</loc>
+    <loc>https://suththa.org/main/books/madutu-bhawana-yogiyo/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/asrawa-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/atti-punja-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/dana-sanvibaga-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/duthiya-bhikku-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/duthiya-bhikku-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/patama-vedana-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/punyabai_suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/sabba-parinna-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/sampajana-musawada-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/ubho-aththa-suththa/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>

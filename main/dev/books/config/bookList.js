@@ -35,7 +35,7 @@ const bookList = [
     order: 6,
 
     output: "web",
-    force: true,
+    force: false,
   },
   {
     name: "විතක්ක සූත්‍රය ",
@@ -47,7 +47,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
-    force: true,
+    force: false,
   },
   {
     name: "වුට්ඨි සූත්‍රය ",
@@ -144,7 +144,7 @@ const bookList = [
     files: ["දොලොස්වල උදිතධීර හිමි", 2032, 2033],
     source: "docx",
     featured: true,
-    order: 4, 
+    order: 4,
 
     output: "web",
     force: false,
@@ -221,7 +221,7 @@ const bookList = [
     output: "web",
     force: false,
   },
- 
+
   {
     name: "උපසමානුස්සති භාවනාව",
     author: "දොලොස්වල උදිතධීර හිමි",
@@ -271,7 +271,7 @@ const bookList = [
     force: false,
   },
   {
-    name: "අටමහා නිරය",
+    name: "සතර අපාය",
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "atamaha-niraya",
     cover: "books-png/purusa-atamaha-niraya.png",
@@ -282,7 +282,7 @@ const bookList = [
     order: 3,
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "ආර්ය අෂ්ටාංගික මාර්ගය",
@@ -324,6 +324,128 @@ const bookList = [
     output: "web",
     force: false,
   },
+  {
+    name: "පඨම ආසව සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "asrawa-suththa",
+    cover: "books-png/asrawa-suththa.png",
+    group: 3,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2058, 2059],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "අට්ඨි පුඤ්ජ සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "atti-punja-suththa",
+    cover: "books-png/atti-punja-suththa.png",
+    group: 3,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2060, 2061],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "දාන සංවිභාග සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "dana-sanvibaga-suththa",
+    cover: "books-png/dana-sanvibaga-suththa.png",
+    group: 3,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2062, 2063],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+
+  {
+    name: "දුතිය භික්ඛු සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "duthiya-bhikku-suththa",
+    cover: "books-png/duthiya-bhikku-suththa.png",
+    group: 3,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2064, 2065],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "දුතිය සේඛ සූත්‍රය.",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "duthiya-bhikku-suththa",
+    cover: "books-png/duthiya-bhikku-suththa.png",
+    group: 3,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2066, 2067],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "පඨම වේදනා සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "patama-vedana-suththa",
+    cover: "books-png/patama-vedana-suththa.png",
+    group: 3,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2068, 2069],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "පුඤ්ඤාභායී සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "punyabai_suththa",
+    cover: "books-png/punyabai_suththa.png",
+    group: 3,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2069, 2070],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "සබ්බ පරිඤ්ඤා සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "sabba-parinna-suththa",
+    cover: "books-png/sabba-parinna-suththa.png",
+    group: 3,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2071, 2072],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "සම්පජාන මුසාවාද සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "sampajana-musawada-suththa",
+    cover: "books-png/sampajana-musawada-suththa.png",
+    group: 3,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2051, 2052],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "උභෝ අත්ථ සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "ubho-aththa-suththa",
+    cover: "books-png/ubho-aththa-suththa.png",
+    group: 3,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2051, 2052],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+
 ];
 
 

@@ -200,7 +200,7 @@
     "order": 999
   },
   {
-    "title": "අටමහා නිරය",
+    "title": "සතර අපාය",
     "author": "දොලොස්වල උදිතධීර හිමි",
     "folder": "atamaha-niraya",
     "cover": "main/books/books-png/atamaha-niraya.png",
@@ -238,5 +238,105 @@
     "category": 5,
     "featured": true,
     "order": 2
+  },
+  {
+    "title": "පඨම ආසව සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "asrawa-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/asrawa-suththa/index.html",
+    "category": 3,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "අට්ඨි පුඤ්ජ සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "atti-punja-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/atti-punja-suththa/index.html",
+    "category": 3,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "දාන සංවිභාග සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "dana-sanvibaga-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/dana-sanvibaga-suththa/index.html",
+    "category": 3,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "දුතිය භික්ඛු සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "duthiya-bhikku-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/duthiya-bhikku-suththa/index.html",
+    "category": 3,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "දුතිය සේඛ සූත්‍රය.",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "duthiya-bhikku-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/duthiya-bhikku-suththa/index.html",
+    "category": 3,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "පඨම වේදනා සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "patama-vedana-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/patama-vedana-suththa/index.html",
+    "category": 3,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "පුඤ්ඤාභායී සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "punyabai_suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/punyabai_suththa/index.html",
+    "category": 3,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "සබ්බ පරිඤ්ඤා සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "sabba-parinna-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/sabba-parinna-suththa/index.html",
+    "category": 3,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "සම්පජාන මුසාවාද සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "sampajana-musawada-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/sampajana-musawada-suththa/index.html",
+    "category": 3,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "උභෝ අත්ථ සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "ubho-aththa-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/ubho-aththa-suththa/index.html",
+    "category": 3,
+    "featured": false,
+    "order": 999
   }
 ]

@@ -15,7 +15,7 @@ const { bookList, isNodeEmpty, getNodeFileName } = require("./config/bookList");
 const buildBooksJSON = require("./builders/books-builder");
 const buildSearchIndex = require("./builders/search-builder");
 const buildSitemap = require("./builders/sitemap-builder");
-const { buildTree } = require("./tree-builder");
+const { buildTree, buildPageNavigation } = require("./tree-builder");
 
 const fs = require("fs");
 const fsExtra = require("fs-extra");
@@ -357,6 +357,10 @@ function generateWebpages(book, bookDoc) {
 
   const nodeList = buildTree(bookDoc);
 
+  // ⚠️ pageList එක අපි පසුව භාවිතා කරන නිසා මේක තාවකාලිකව තියෙන්න දෙන්න.
+
+  const pageList = buildPageNavigation(nodeList);
+
   console.log("H1 pages =", nodeList.length);
 
   console.log("Tree created successfully");
@@ -452,6 +456,9 @@ function writeBookFiles(book, children, rootFolder, tmplStr, nodeList) {
         title: `${node.headerText} - ${book.name}`,
         desc: `${book.name} - ${book.author}`,
         folder: book.folder,
+
+        // එක් එක් පොතේ සෑම content page එකකටම නිවැරදි Canonical URL එක
+        canonical: `https://suththa.org/main/books/${book.folder}/${getNodeFileName(node)}`,
       },
     );
     writeBookFiles(book, node.children, rootFolder, tmplStr, nodeList);
@@ -500,25 +507,28 @@ function getTopLinks(node, book, nodeList) {
 }
 
 function getBottomLinks(node) {
+  // පෙර පිටුව
+  const prevLink = node.prev
+    ? JC("a", "button prev")
+        .attr("href", node.prev.file)
+        .html(
+          `${MDI("arrow_back")}
+           <span>${node.prev.headerText}</span>`,
+        )
+    : "";
 
-    const headerElement = node.header;
+  // ඊළඟ පිටුව
+  const nextLink = node.next
+    ? JC("a", "button next")
+        .attr("href", node.next.file)
+        .html(
+          `<span>${node.next.headerText}</span>
+           ${MDI("arrow_forward")}`,
+        )
+    : "";
 
-    const prev = headerElement.prevAll("[file]:first");
-    const next = headerElement.nextAll("[file]:first");
-
-    const prevLink = prev.length
-        ? JC("a", "button prev")
-            .attr("href", prev.attr("file"))
-            .html(`${MDI("arrow_back")} <span>${prev.text()}</span>`)
-        : "";
-
-    const nextLink = next.length
-        ? JC("a", "button next")
-            .attr("href", next.attr("file"))
-            .html(`<span>${next.text()}</span> ${MDI("arrow_forward")}`)
-        : "";
-
-    return JC("nav", "bottom").append(prevLink, nextLink);
+  // Navigation bar
+  return JC("nav", "bottom").append(prevLink, nextLink);
 }
 
 function getBookmarkIcon(node, { book, nodeList }, extraClass) {
@@ -589,11 +599,15 @@ function writeIndexFile(book, nodeList, fileName, seoTags = "") {
 
       folder: book.folder,
 
+      canonical: `https://suththa.org/main/books/${book.folder}/index.html`,
+
       titleBar: book.name,
 
       htmlId: book.files[1],
 
       pdfId: book.files[2] || book.files[3],
+
+     
     },
   );
 }

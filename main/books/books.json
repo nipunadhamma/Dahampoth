@@ -325,7 +325,7 @@
     "folder": "sampajana-musawada-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/sampajana-musawada-suththa/index.html",
-    "category": 3,
+    "category": 2,
     "featured": false,
     "order": 999
   },
@@ -335,7 +335,7 @@
     "folder": "ubho-aththa-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/ubho-aththa-suththa/index.html",
-    "category": 3,
+    "category": 2,
     "featured": false,
     "order": 999
   },
@@ -345,7 +345,7 @@
     "folder": "sabbrahmaka-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/sabbrahmaka-suththa/index.html",
-    "category": 3,
+    "category": 2,
     "featured": false,
     "order": 999
   },
@@ -355,7 +355,137 @@
     "folder": "somanassa-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/somanassa-suththa/index.html",
-    "category": 3,
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "අජිත සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "ajitha-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/ajitha-suththa/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "බහූකාර සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "bahikara-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/bahikara-suththa/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "බ්‍රාහ්මණ සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "bhahmana-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/bhahmana-suththa/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "ලෝකාවබෝධ සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "lokawaboda-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/lokawaboda-suththa/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "දුතිය ජනකුහන සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "dutiya-janakuhana-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/dutiya-janakuhana-suththa/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "පාපක සීල සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "papaka-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/papaka-suththa/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "පඨම ජනකුහන සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "patama-janakuhana-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/patama-janakuhana-suththa/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "සම්පන්න සීල සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "sampanna-sila-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/sampanna-sila-suththa/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "තපනීය සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "thapaniya-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/thapaniya-suththa/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "තිස්ස මෙත්තෙයිය සුත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "thissa-meththeyya-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/thissa-meththeyya-suththa/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "උපපරික්ඛ සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "uparipakka-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/uparipakka-suththa/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "පුණ්ණක සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "punnaka-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/punnaka-suththa/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "සුක්ක ධම්ම සුත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "suska-dhamma",
+    "cover": "",
+    "url": "https://suththa.org/main/books/suska-dhamma/index.html",
+    "category": 2,
     "featured": false,
     "order": 999
   }

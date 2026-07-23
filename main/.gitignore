@@ -1,0 +1,11 @@
+desktop.ini
+Thumbs.db
+node_modules/
+.env
+.env.*
+*.log
+*.tmp
+*.temp
+.vscode/
+__pycache__/
+*.pyc

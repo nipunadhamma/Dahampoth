@@ -225,5 +225,83 @@
     <priority>0.8</priority>
 </url>
 
+<url>
+    <loc>https://suththa.org/main/books/ajitha-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/bahikara-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/bhahmana-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/lokawaboda-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/dutiya-janakuhana-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/papaka-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/patama-janakuhana-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/sampanna-sila-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/thapaniya-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/thissa-meththeyya-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/uparipakka-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/punnaka-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/suska-dhamma/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
 
 </urlset>

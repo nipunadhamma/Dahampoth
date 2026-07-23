@@ -1,0 +1,136 @@
+/* =========================
+   BOOK TITLE
+========================= */
+
+.book-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 30px auto;
+    font-family: "Noto Serif Sinhala", serif;
+}
+
+/* =========================
+   SUTTA PALI
+========================= */
+
+.sutta-pali {
+
+    font-weight: 700;
+
+    font-size: 1.15em;
+
+    letter-spacing: 0.3px;
+
+    font-family:
+            "Noto Serif Sinhala",
+            serif;
+
+}
+
+
+/* =========================
+   SUTTA LOCATION
+========================= */
+
+.sutta-path {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.sub-heading {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 30px;
+    font-family: "Noto Serif Sinhala", serif;
+}
+
+.small-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: "Noto Serif Sinhala", serif;
+}
+.sutta-divider {
+
+    border:0;
+
+    margin:45px auto;
+
+    width:100%;
+
+    height:2px;
+
+    background:linear-gradient(
+        to right,
+        transparent,
+        #795548,
+        transparent
+    );
+
+} 
+
+.gatha {
+
+    margin-left: 20px;
+
+    margin-right: 2px;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    line-height: 1.5;
+
+}
+
+
+
+.gatha-source {
+
+    margin-left: 50px;
+
+    margin-top: 2px;
+
+    margin-bottom: 10px;
+
+    font-size: 0.9em;
+
+    color: #795548;
+
+    font-style: italic;
+
+}
+
+ .description {
+     font-size: 14px;
+     /* ඔබට අවශ්‍ය කුඩා අකුරු ප්‍රමාණය */
+     color: #555;
+     /* අළු පැහැයකින් දිස්වීමට */
+     margin-top: 2px;
+     font-weight: normal;
+ }
+ /* =========================
+   TOAST MESSAGE
+========================= */
+
+.toast {
+    visibility: hidden;
+    min-width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 12px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+.toast.show {
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 4s;
+}

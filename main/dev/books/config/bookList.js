@@ -334,7 +334,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
-    force: true,
+    force: false,
   },
   {
     name: "අට්ඨි පුඤ්ජ සූත්‍රය",
@@ -346,7 +346,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
-    force: true,
+    force: false,
   },
   {
     name: "දාන සංවිභාග සූත්‍රය",
@@ -358,7 +358,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
-    force: true,
+    force: false,
   },
 
   {
@@ -371,7 +371,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
-    force: true,
+    force: false,
   },
   {
     name: "දුතිය සේඛ සූත්‍රය.",
@@ -383,7 +383,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
-    force: true,
+    force: false,
   },
   {
     name: "පඨම වේදනා සූත්‍රය",
@@ -395,7 +395,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
-    force: true,
+    force: false,
   },
   {
     name: "පුඤ්ඤාභායී සූත්‍රය",
@@ -407,7 +407,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
-    force: true,
+    force: false,
   },
   {
     name: "සබ්බ පරිඤ්ඤා සූත්‍රය",
@@ -419,7 +419,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
-    force: true,
+    force: false,
   },
   {
     name: "සම්පජාන මුසාවාද සූත්‍රය",
@@ -431,7 +431,7 @@ const bookList = [
     source: "docx",
 
     output: "web",
-    force: true,
+    force: false,
   },
   {
     name: "උභෝ අත්ථ සූත්‍රය",
@@ -443,9 +443,32 @@ const bookList = [
     source: "docx",
 
     output: "web",
+    force: false,
+  },
+  {
+    name: "සබ්‍රහ්මක සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "sabbrahmaka-suththa",
+    cover: "books-png/sabbrahmaka-suththa.png",
+    group: 3,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2053, 2054],
+    source: "",
+
+    output: "web",
     force: true,
   },
+  {
+    name: "සෝමනස්ස සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "somanassa-suththa",
+    cover: "books-png/somanassa-suththa.png",
+    group: 3,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2055, 2056],
+    source: "",
 
+    output: "web",
+    force: true,
+  },
 ];
 
 

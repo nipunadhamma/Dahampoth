@@ -261,7 +261,7 @@ h4 {
     color: var(--error-color);
     font-weight: bold;
     font-size: 1.8rem;
-    margin-bottom: 30px;
+    
        
         
         
@@ -271,9 +271,9 @@ h4 {
     /* රේඛාවේ විලාසය */
     border-bottom: 2px solid #1a5276;
     /* රේඛාවේ වර්ණය සහ ඝනකම */
-    padding-bottom: 10px;
+    padding-bottom: 2px;
     /* මාතෘකාව සහ රේඛාව අතර ඉඩ */
-    margin-top: 40px;
+    margin-top: 20px;
     /* මාතෘකාවට ඉහළින් ඉඩ */
     display: block;
     /* මෙය මගින් රේඛාව සම්පූර්ණ පළලට විහිදේ */
@@ -440,7 +440,7 @@ a.button .material-icons {
 
 /**In the app-index.html */
 .group {
-    text-align: center;
+    text-align: left;
     margin: 0.5rem;
     padding: 0.1rem;
     border: 1px solid var(--text-color);
@@ -604,24 +604,9 @@ table.max-width thead {
      font-size: 16px;
      transition: font-size 0.2s;
  }
- #toast {
-     visibility: hidden;
-     min-width: 250px;
-     background: #333;
-     color: white;
-     text-align: center;
-     border-radius: 8px;
-     padding: 12px;
-     position: fixed;
-     bottom: 30px;
-     left: 50%;
-     transform: translateX(-50%);
-     z-index: 9999;
- }
+ 
 
- #toast.show {
-     visibility: visible;
- }
+ 
 
  p {
      margin-bottom: 30px;

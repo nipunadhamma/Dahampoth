@@ -338,5 +338,25 @@
     "category": 3,
     "featured": false,
     "order": 999
+  },
+  {
+    "title": "සබ්‍රහ්මක සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "sabbrahmaka-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/sabbrahmaka-suththa/index.html",
+    "category": 3,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "සෝමනස්ස සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "somanassa-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/somanassa-suththa/index.html",
+    "category": 3,
+    "featured": false,
+    "order": 999
   }
 ]

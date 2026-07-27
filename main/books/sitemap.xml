@@ -16,6 +16,12 @@
 </url>
 
 <url>
+    <loc>https://suththa.org/main/books/dharmadeshanapuhunuwa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
     <loc>https://suththa.org/main/books/vithakka-suththa-01/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -299,6 +305,48 @@
 
 <url>
     <loc>https://suththa.org/main/books/suska-dhamma/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/bhaddrauda-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/chathu-kanni-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/kama-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/kappa-suttha/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/subasitha-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/thodeyya-suttha/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/uraga-suththa/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>

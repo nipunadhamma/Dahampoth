@@ -30,12 +30,27 @@ const bookList = [
     cover: "books-png/mangala-suththa.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2015, 2016],
-    source: "docx",
+    source: " ",
     featured: true,
     order: 6,
 
     output: "web",
     force: true,
+  },
+  {
+    name: "ධර්මදේශනා පුහුණුව අංක 01 ",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "dharmadeshanapuhunuwa",
+    cover: "books-png/dharmadeshanapuhunuwa.jpg",
+    group: 1,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2013, 2014],
+    source: " ",
+
+    output: "web",
+    force: true,
+
+    featured: true,
+    order: 2,
   },
   {
     name: "විතක්ක සූත්‍රය ",
@@ -44,10 +59,10 @@ const bookList = [
     cover: "books-png/vithakka-suththa-01.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2017, 2018],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "වුට්ඨි සූත්‍රය ",
@@ -56,10 +71,10 @@ const bookList = [
     cover: "books-png/wutti-suththa-02.jpg",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2019, 2020],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "අද්ධා සූත්‍රය ",
@@ -68,10 +83,10 @@ const bookList = [
     cover: "books-png/adda-suththa-03.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2021, 2022],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "නිස්සරණිය සූත්‍රය ",
@@ -80,10 +95,10 @@ const bookList = [
     cover: "books-png/nissaraniya-suththa-04.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2023, 2024],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "සන්ති සූත්‍රය ",
@@ -92,10 +107,10 @@ const bookList = [
     cover: "books-png/santhi-suththa-05.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2025, 2026],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "දහම් ගුණ",
@@ -104,10 +119,10 @@ const bookList = [
     cover: "books-png/dhaham-guna-06.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2026, 2027],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "ලෝක සූත්‍රය",
@@ -116,10 +131,10 @@ const bookList = [
     cover: "books-png/loka-suththa-07.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2028, 2029],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "පසන්න චිත්ත සූත්‍රය",
@@ -128,12 +143,12 @@ const bookList = [
     cover: "books-png/pasanna-chiththa suththa.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2030, 2031],
-    source: "docx",
+    source: " ",
     featured: true,
     order: 5,
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "පදුට්ඨ පුද්ගල සූත්‍රය",
@@ -142,12 +157,10 @@ const bookList = [
     cover: "books-png/padutta-puggala-suththa.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2032, 2033],
-    source: "docx",
-    featured: true,
-    order: 4,
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "මිච්ඡාදිට්ඨි කම්ම සමාදාන සූත්‍රය",
@@ -156,10 +169,10 @@ const bookList = [
     cover: "books-png/michhaditti-kamma-samadana-suththa-06.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2034, 2035],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "චතුචක්ක සූත්‍රය",
@@ -168,10 +181,10 @@ const bookList = [
     cover: "books-png/chathchakka-suththa-09.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2036, 2037],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "නත්ථි පුත්ත  සූත්‍රය",
@@ -180,10 +193,10 @@ const bookList = [
     cover: "books-png/naththi-puththa-suththa-10.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2038, 2039],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "නන්දති සූත්‍රය",
@@ -192,10 +205,10 @@ const bookList = [
     cover: "books-png/nandathi-suththa-11",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2039, 2040],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "ඵුසති සූත්‍රය",
@@ -204,10 +217,10 @@ const bookList = [
     cover: "books-png/pusathi-suththa-08.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2041, 2042],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "පුරුස පියරූප සූත්‍රය",
@@ -216,10 +229,10 @@ const bookList = [
     cover: "books-png/purusa-piyarupa suththa12.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2043, 2044],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
 
   {
@@ -229,10 +242,10 @@ const bookList = [
     cover: "books-png/upasama-anussathiya.png",
     group: 4,
     files: ["දොලොස්වල උදිතධීර හිමි", 2046, 2047],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "පංච උපාදානස්කන්ධය",
@@ -241,10 +254,10 @@ const bookList = [
     cover: "books-png/pancha-upadanaskandaya.png",
     group: 1,
     files: ["දොලොස්වල උදිතධීර හිමි", 2048, 2049],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "ඉරියාපත භාවනාව",
@@ -253,10 +266,10 @@ const bookList = [
     cover: "books-png/iriyapatha-bhawanawa.png",
     group: 4,
     files: ["දොලොස්වල උදිතධීර හිමි", 2049, 2050],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "චිත්තානුපස්සනාව",
@@ -265,10 +278,10 @@ const bookList = [
     cover: "books-png/chiththanupassana.png",
     group: 4,
     files: ["දොලොස්වල උදිතධීර හිමි", 2051, 2052],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "සතර අපාය",
@@ -277,7 +290,7 @@ const bookList = [
     cover: "books-png/purusa-atamaha-niraya.png",
     group: 1,
     files: ["දොලොස්වල උදිතධීර හිමි", 2052, 2053],
-    source: "docx",
+    source: " ",
     featured: true,
     order: 3,
 
@@ -291,10 +304,10 @@ const bookList = [
     cover: "books-png/arya-astangika -magga.png",
     group: 1,
     files: ["දොලොස්වල උදිතධීර හිමි", 2054, 2055],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "ආනාපානසති භාවනාව",
@@ -303,12 +316,12 @@ const bookList = [
     cover: "books-png/anapana-sathi-bhavana.png",
     group: 4,
     files: ["දොලොස්වල උදිතධීර හිමි", 2055, 2056],
-    source: "docx",
+    source: " ",
     featured: true,
     order: 1,
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "මා දුටු භාවනා යෝගීහු",
@@ -317,12 +330,12 @@ const bookList = [
     cover: "books-png/madutu-bhawana-yogiyo.png",
     group: 5,
     files: [" ", 2057, 2058],
-    source: "docx",
+    source: " ",
     featured: true,
-    order: 2,
+    order: 4,
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "පඨම ආසව සූත්‍රය",
@@ -331,10 +344,10 @@ const bookList = [
     cover: "books-png/asrawa-suththa.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2058, 2059],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "අට්ඨි පුඤ්ජ සූත්‍රය",
@@ -343,10 +356,10 @@ const bookList = [
     cover: "books-png/atti-punja-suththa.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2060, 2061],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "දාන සංවිභාග සූත්‍රය",
@@ -355,10 +368,10 @@ const bookList = [
     cover: "books-png/dana-sanvibaga-suththa.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2062, 2063],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
 
   {
@@ -368,10 +381,10 @@ const bookList = [
     cover: "books-png/duthiya-bhikku-suththa.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2064, 2065],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "දුතිය සේඛ සූත්‍රය.",
@@ -380,10 +393,10 @@ const bookList = [
     cover: "books-png/duthiya-bhikku-suththa.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2066, 2067],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "පඨම වේදනා සූත්‍රය",
@@ -392,10 +405,10 @@ const bookList = [
     cover: "books-png/patama-vedana-suththa.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2068, 2069],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "පුඤ්ඤාභායී සූත්‍රය",
@@ -404,10 +417,10 @@ const bookList = [
     cover: "books-png/punyabai_suththa.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2069, 2070],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "සබ්බ පරිඤ්ඤා සූත්‍රය",
@@ -416,41 +429,41 @@ const bookList = [
     cover: "books-png/sabba-parinna-suththa.png",
     group: 3,
     files: ["දොලොස්වල උදිතධීර හිමි", 2071, 2072],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "සම්පජාන මුසාවාද සූත්‍රය",
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "sampajana-musawada-suththa",
     cover: "books-png/sampajana-musawada-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2051, 2052],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "උභෝ අත්ථ සූත්‍රය",
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "ubho-aththa-suththa",
     cover: "books-png/ubho-aththa-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2051, 2052],
-    source: "docx",
+    source: " ",
 
     output: "web",
-    force: false,
+    force: true,
   },
   {
     name: "සබ්‍රහ්මක සූත්‍රය",
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "sabbrahmaka-suththa",
     cover: "books-png/sabbrahmaka-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2053, 2054],
     source: "",
 
@@ -462,7 +475,7 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "somanassa-suththa",
     cover: "books-png/somanassa-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2055, 2056],
     source: "",
 
@@ -474,9 +487,9 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "ajitha-suththa",
     cover: "books-png/ajitha-suththa.png",
-    group: 2,
+    group: 6,
     files: ["දොලොස්වල උදිතධීර හිමි", 2056, 2057],
-    source: "docx",
+    source: " ",
 
     output: "web",
     force: true,
@@ -486,9 +499,9 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "bahikara-suththa",
     cover: "books-png/vbahikara-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2058, 2059],
-    source: "docx",
+    source: " ",
 
     output: "web",
     force: true,
@@ -498,9 +511,9 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "bhahmana-suththa",
     cover: "books-png/bhahmana-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2059, 2060],
-    source: "docx",
+    source: " ",
 
     output: "web",
     force: true,
@@ -510,9 +523,9 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "lokawaboda-suththa",
     cover: "books-png/lokawaboda-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2061, 2062],
-    source: "docx",
+    source: " ",
 
     output: "web",
     force: true,
@@ -522,9 +535,9 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "dutiya-janakuhana-suththa",
     cover: "books-png/dutiya-janakuhana-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2063, 2064],
-    source: "docx",
+    source: " ",
 
     output: "web",
     force: true,
@@ -534,9 +547,9 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "papaka-suththa",
     cover: "books-png/papaka-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2064, 2065],
-    source: "docx",
+    source: " ",
 
     output: "web",
     force: true,
@@ -546,7 +559,7 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "patama-janakuhana-suththa",
     cover: "books-png/patama-janakuhana-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2066, 2067],
     source: " ",
 
@@ -558,9 +571,9 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "sampanna-sila-suththa",
     cover: "books-png/sampanna-sila-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2068, 2069],
-    source: "docx",
+    source: " ",
 
     output: "web",
     force: true,
@@ -570,9 +583,9 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "thapaniya-suththa",
     cover: "books-png/thapaniya-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2070, 2071],
-    source: "docx",
+    source: " ",
 
     output: "web",
     force: true,
@@ -582,9 +595,9 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "thissa-meththeyya-suththa",
     cover: "books-png/thissa-meththeyya-suththa.png",
-    group: 2,
+    group: 6,
     files: ["දොලොස්වල උදිතධීර හිමි", 2072, 2073],
-    source: "docx",
+    source: " ",
 
     output: "web",
     force: true,
@@ -594,9 +607,9 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "uparipakka-suththa",
     cover: "books-png/uparipakka-suththa.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2074, 2075],
-    source: "docx",
+    source: " ",
 
     output: "web",
     force: true,
@@ -606,7 +619,7 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "punnaka-suththa",
     cover: "books-png/punnaka-suththa.png",
-    group: 2,
+    group: 6,
     files: ["දොලොස්වල උදිතධීර හිමි", 2076, 2077],
     source: "",
 
@@ -618,8 +631,92 @@ const bookList = [
     author: "දොලොස්වල උදිතධීර හිමි",
     folder: "suska-dhamma",
     cover: "books-png/suska-dhamma.png",
-    group: 2,
+    group: 7,
     files: ["දොලොස්වල උදිතධීර හිමි", 2078, 2079],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "භද්‍රාවුද සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "bhaddrauda-suththa",
+    cover: "books-png/bhaddrauda-suththa.png",
+    group: 7,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2079, 2080],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "ජතු කණ්ණී සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "chathu-kanni-suththa",
+    cover: "books-png/chathu-kanni-suththa.png",
+    group: 7,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2081, 2082],
+    source: " ",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "කාම සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "kama-suththa",
+    cover: "books-png/kama-suththa.png",
+    group: 7,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2083, 2084],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "කප්ප සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "kappa-suttha",
+    cover: "books-png/kappa-suttha.png",
+    group: 7,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2085, 2086],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "සුභාෂිත සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "subasitha-suththa",
+    cover: "books-png/subasitha-suththa.png",
+    group: 7,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2087, 2088],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "තෝදෙයිය සූත්‍රය.",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "thodeyya-suttha",
+    cover: "books-png/thodeyya-suttha.png",
+    group: 7,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2089, 2090],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "සුක්ක ධම්ම සුත්තං",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "uraga-suththa",
+    cover: "books-png/uraga-suththa.png",
+    group: 7,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2091, 2092],
     source: "docx",
 
     output: "web",

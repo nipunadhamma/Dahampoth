@@ -10,6 +10,16 @@
     "order": 6
   },
   {
+    "title": "ධර්මදේශනා පුහුණුව අංක 01",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "dharmadeshanapuhunuwa",
+    "cover": "main/books/books-png/dharmadeshanapuhunuwa.jpg",
+    "url": "https://suththa.org/main/books/dharmadeshanapuhunuwa/index.html",
+    "category": 1,
+    "featured": true,
+    "order": 2
+  },
+  {
     "title": "විතක්ක සූත්‍රය",
     "author": "දොලොස්වල උදිතධීර හිමි",
     "folder": "vithakka-suththa-01",
@@ -96,8 +106,8 @@
     "cover": "main/books/books-png/padutta-puggala-suththa.png",
     "url": "https://suththa.org/main/books/padutta-puggala-suththa/index.html",
     "category": 3,
-    "featured": true,
-    "order": 4
+    "featured": false,
+    "order": 999
   },
   {
     "title": "මිච්ඡාදිට්ඨි කම්ම සමාදාන සූත්‍රය",
@@ -237,7 +247,7 @@
     "url": "https://suththa.org/main/books/madutu-bhawana-yogiyo/index.html",
     "category": 5,
     "featured": true,
-    "order": 2
+    "order": 4
   },
   {
     "title": "පඨම ආසව සූත්‍රය",
@@ -325,7 +335,7 @@
     "folder": "sampajana-musawada-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/sampajana-musawada-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -335,7 +345,7 @@
     "folder": "ubho-aththa-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/ubho-aththa-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -345,7 +355,7 @@
     "folder": "sabbrahmaka-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/sabbrahmaka-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -355,7 +365,7 @@
     "folder": "somanassa-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/somanassa-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -365,7 +375,7 @@
     "folder": "ajitha-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/ajitha-suththa/index.html",
-    "category": 2,
+    "category": 6,
     "featured": false,
     "order": 999
   },
@@ -375,7 +385,7 @@
     "folder": "bahikara-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/bahikara-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -385,7 +395,7 @@
     "folder": "bhahmana-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/bhahmana-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -395,7 +405,7 @@
     "folder": "lokawaboda-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/lokawaboda-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -405,7 +415,7 @@
     "folder": "dutiya-janakuhana-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/dutiya-janakuhana-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -415,7 +425,7 @@
     "folder": "papaka-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/papaka-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -425,7 +435,7 @@
     "folder": "patama-janakuhana-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/patama-janakuhana-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -435,7 +445,7 @@
     "folder": "sampanna-sila-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/sampanna-sila-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -445,7 +455,7 @@
     "folder": "thapaniya-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/thapaniya-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -455,7 +465,7 @@
     "folder": "thissa-meththeyya-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/thissa-meththeyya-suththa/index.html",
-    "category": 2,
+    "category": 6,
     "featured": false,
     "order": 999
   },
@@ -465,7 +475,7 @@
     "folder": "uparipakka-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/uparipakka-suththa/index.html",
-    "category": 2,
+    "category": 7,
     "featured": false,
     "order": 999
   },
@@ -475,7 +485,7 @@
     "folder": "punnaka-suththa",
     "cover": "",
     "url": "https://suththa.org/main/books/punnaka-suththa/index.html",
-    "category": 2,
+    "category": 6,
     "featured": false,
     "order": 999
   },
@@ -485,7 +495,77 @@
     "folder": "suska-dhamma",
     "cover": "",
     "url": "https://suththa.org/main/books/suska-dhamma/index.html",
-    "category": 2,
+    "category": 7,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "භද්‍රාවුද සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "bhaddrauda-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/bhaddrauda-suththa/index.html",
+    "category": 7,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "ජතු කණ්ණී සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "chathu-kanni-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/chathu-kanni-suththa/index.html",
+    "category": 7,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "කාම සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "kama-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/kama-suththa/index.html",
+    "category": 7,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "කප්ප සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "kappa-suttha",
+    "cover": "",
+    "url": "https://suththa.org/main/books/kappa-suttha/index.html",
+    "category": 7,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "සුභාෂිත සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "subasitha-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/subasitha-suththa/index.html",
+    "category": 7,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "තෝදෙයිය සූත්‍රය.",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "thodeyya-suttha",
+    "cover": "",
+    "url": "https://suththa.org/main/books/thodeyya-suttha/index.html",
+    "category": 7,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "සුක්ක ධම්ම සුත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "uraga-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/uraga-suththa/index.html",
+    "category": 7,
     "featured": false,
     "order": 999
   }

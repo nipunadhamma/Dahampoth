@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>කාම සූත්‍රය - කාම සූත්‍රය</title>
+
+    <meta name="description" content="කාම සූත්‍රය - දොලොස්වල උදිතධීර හිමි">
+    
+
+   
+    <meta name="keywords" content="KEYWORDSPLACEHOLDER">
+
+    <meta name="robots" content="index,follow">
+    
+   
+	<!-- Google Translate Widget Container -->
+<div id="google_translate_element" style="margin: 15px 0;"></div>
+
+<!-- Google Translate Script -->
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'si', // ඔබගේ වෙබ් අඩවියේ මූලික භාෂාව (ප්‍රධාන භාෂාව) මෙහි සඳහන් කරන්න
+            includedLanguages: 'si,ta,en,hi,fr,de', // පරිශීලකයින්ට ලබා දීමට අවශ්‍ය භාෂා (සිංහල, දෙමළ, ඉංග්‍රීසි ආදී වශයෙන් කැමති තරම් එකතු කළ හැක)
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+	
+	
+    <!-- ================= VIEWPORT ================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    
+    <!-- ================= OPEN GRAPH ================= -->
+   
+    <meta property="og:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://i.postimg.cc/Hx1hyKdc/og-books-500x300.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="300">
+
+    <!-- ================= TWITTER CARD ================= -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ත්‍රිපිටකය ආශ්‍රිත පොත්">
+    <meta name="twitter:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta name="twitter:image" content="https://suththa.org/common/og-books-500x300.png">
+    <!-- Open Graph -->
+    <meta property="og:title" content="කාම සූත්‍රය - කාම සූත්‍රය">
+    <meta property="og:description" content="කාම සූත්‍රය - දොලොස්වල උදිතධීර හිමි">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://suththa.org/common/og-books-500x300.png">
+    
+    <!-- ================= PWA ================= -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="../../common/manifest.json">
+
+    <link rel="canonical" href="https://suththa.org/main/books/kama-suththa/1.html">
+    <link rel="apple-touch-icon" href="../../common/apple-touch-icon.png">
+    <link rel="icon" href="../../common/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../common/favicon-96x96.png">
+    <link rel="stylesheet" href="../../common/book.css">
+    <link rel="stylesheet" href="../../common/mybook.css" />
+    <link rel="stylesheet" href="./pre-book.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Moved inline styles from book container into internal CSS to avoid inline styles */
+        .book-container {
+            width: 100%;
+            max-width: 90%;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            align-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- TOP NAV BAR -->
+    <header>
+    
+        <h1>පොත් ලැයිස්තුව</h1>
+    
+        <div class="header-actions">
+    
+            <!-- FONT - BUTTON -->
+            <button class="icon-btn" onclick="changeFont(-1)" title="Decrease Font">
+                <span class="material-icons">text_decrease</span>
+            </button>
+    
+            <!-- FONT + BUTTON -->
+            <button class="icon-btn" onclick="changeFont(1)" title="Increase Font">
+                <span class="material-icons">text_increase</span>
+            </button>
+
+            <!-- Bookmark -->
+            <button class="icon-btn" onclick="goBookmarks()" title="සුරකින ලද පිටු">
+                <span class="material-icons">bookmark</span>
+            </button>
+    
+            <!-- Home -->
+            <button class="icon-btn" onclick="goHome()" title="මුල් පිටුව">
+                <span class="material-icons">home</span>
+            </button>
+    
+            <!-- Dark Mode -->
+            <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="Dark Mode">
+                <span class="material-icons" id="themeIcon">dark_mode</span>
+            </button>
+    
+        </div>
+    
+    </header>
+    <body>
+        <div book-folder="." class="book-container">
+
+
+    <!-- READING PROGRESS BAR -->
+    <div id="progress"></div>
+
+    <!-- BOOK CONTENT -->
+    <main class="reader">
+
+        <div class="content">
+  <nav class="top"><a class="button" href="../index.html"><i class="material-icons ">home</i></a><i class="material-icons ">navigate_next</i><a class="button" href="index.html#1"><i class="material-icons ">toc</i>කාම සූත්‍රය</a><i class="material-icons ">navigate_next</i></nav>
+  <div class="heading-bar">
+    <h1>කාම සූත්‍රය</h1><i class="material-icons star-icon undefined" data-bookmark="{&quot;ids&quot;:[1],&quot;headings&quot;:[&quot;කාම සූත්‍රය&quot;],&quot;book&quot;:{&quot;name&quot;:&quot;කාම සූත්‍රය&quot;,&quot;folder&quot;:&quot;kama-suththa&quot;}}">star_outline</i><i class="material-icons share-icon" file-name="1.html">share</i>
+  </div>
+  <p><i>සුත්ත නිපාතය</i></p>
+  <div class="subhead">
+    <p>කාම සූත්‍රයේ නිදාන කතාව:</p>
+  </div>
+  <p>​බුදුරජාණන් වහන්සේ සැවැත් නුවර ජේතවනාරාමයෙහි වැඩ සිටින කාලයෙහි අචිරවතී ගඟ සමීපයෙහි යව වැපිරීම පිණිස කෙතක් සීසාන බ්‍රාහ්මණයෙක් විය. භාග්‍යවතුන් වහන්සේ භික්ෂු සංඝයා පිරිවරා එම මාවතේ ගමන් කරද්දී ඔහු දැක, නුවණින් විමසා බැලූ සේක. එවිට ඔහුගේ මේ යව කෙත විනාශ වන බවත්, නැවතත් එම බ්‍රාහ්මණතුමාට සෝතාපත්ති ඵලය ලැබීමට හේතු සම්පත් ඇති බවත් බුදු නුවණට දැකගන්නට ලැබුණි.</p>
+  <p>​ඒ සෝතාපත්ති ඵලය ලබන්නේ කවදාදැයි තථාගතයන් වහන්සේ නුවණින් විමසා බැලූහ. එසේ නුවණින් විමසද්දී මෙසේ අවබෝධ විය: "මොහුගේ අස්වැන්න විනාශ වූ පසු කණගාටුවෙන් යුතුව නිවසට වී වාසය කරයි. එම අවස්ථාවේදී ධර්මය අසා සෝතාපත්ති මාර්ග ඵලය අවබෝධ කර ගනී. ඒ දිනය උදාවන තෙක් මම වරින් වර බ්‍රාහ්මණතුමා වෙත ගමන් කරන්නෙමි. ඔහු මාගේ මිතුරෙකු බවට පත් කරගන්නෙමි" යි සිතූ සේක.</p>
+  <p>​එසේ සිතා බුදුරජාණන් වහන්සේ බ්‍රාහ්මණතුමා ළඟට ගොස්, "බ්‍රාහ්මණතුමනි, ඔබ කුමක් කරන්නේද?" යි ඇසූහ. එවිට බ්‍රාහ්මණතුමා මෙසේ සිතී ය: "මෙබඳු උසස් කුලයක ඉපදුණු ගෞතම නම් වූ මහණ මම සමඟ කතා කරයි. එබැවින් මම භාග්‍යවතුන් වහන්සේ සමඟ ප්‍රියමනාපව කතා කළ යුතුය." මෙසේ සිත පහදවාගෙන, "ගෞතමයිනි, මම කෙත සීසාමි, යව වපුරමි" යනුවෙන් ප්‍රකාශ කළේය.</p>
+  <p>ඉන්පසුව සාරිපුත්ත මහරහතන් වහන්සේ මෙසේ සිතූහ. භාග්‍යවතුන් වහන්සේ බමුණා සමඟ පිළිසඳර කතා කළ සේක. කතා කළේ හේතුවක් ඇතුවමය; හේතුවක් නැතුව තථාගතයන් වහන්සේලා එසේ නොකරති. මම බ්‍රාහ්මණතුමා සමඟ කතා කරමි යි සිතා ඔහු සමීපයට ගොස් කතාබහ කළහ. එසේම මුගලන් මහ රහතන් වහන්සේ ද, අසූමහා ශ්‍රාවකයෝ ද බ්‍රාහ්මණතුමා සමඟ කතා කළහ. එයින් එතුමා මහත් සේ සතුටට පත් විය.</p>
+  <p>​මේ අතර භාග්‍යවතුන් වහන්සේ අස්වැන්න පැසෙන දවසක බ්‍රාහ්මණතුමා සමීපයට ගොස්, "බ්‍රාහ්මණතුමනි, ඔබේ යව කෙත සරුසාරයි නේද?" කියා ප්‍රකාශ කළහ. "එසේය ගෞතමයිනි, කෙත සරුසාරය; අස්වැන්න නෙළා ගත් පසු ඔබටත් දානයක් ලබා දෙන්නෙමි."</p>
+  <p>​මෙසේ සිව් මසක් ගත වූ පසු යව කෙත පැසුණි. බ්‍රාහ්මණතුමා "අද හෝ හෙට යව කපන්නෙමි" යි ඊට අදාළ කටයුතු ගැන සිතමින් කල් ගත කළේය. යව කැපීමට පෙර දින,මුළු රැය පුරාම මහා වර්ෂාවක් ඇද වැටුණේය; අචිරවතී ගංගාව දෙගොඩතලා ගලන්නට විය. මුළු යව කෙතම ජලයෙන් යටවිය.</p>
+  <p>​බමුණා මුළු රැයම නොනිදා , නොසතුටු වී රාත්‍රිය එළිවන තෙක් කල් ගත කළේය. උදෑසන කෙතට ගොස් බලන විට මහත් සේ කෙත විනාශයට පත් වී තිබුණි. "මම නැසුණෙමි! මම දැන් ජීවත් වන්නේ කෙසේද?" යනුවෙන් බලවත් සෝකයක් ඇති විය.</p>
+  <p>භාග්‍යවතුන් වහන්සේ ද ඒ රැයෙහි අලුයම බුදු ඇසින් ලොව බලද්දී බමුණාට ධර්ම දේශනා කිරීමට සුදුසු කාලය බව දැනගත් සේක. පිඬු පිණිස හැසිරෙමින් සැවැත් නුවරට පිවිස බ්‍රාහ්මණතුමාගේ ගේ දොරකඩට වැඩම කළහ. . භාග්‍යවතුන් වහන්සේ දුටු බ්‍රාහ්මණතුමා ඉතා සෝකයෙන් යුතුව, "මා අස්වැසීමට ශ්‍රමණ ගෞතමයන් වහන්සේ පැමිණ ඇත" යනුවෙන් සිතා ආසනයක් පනවා පාත්‍රය ගෙන භාග්‍යවතුන් වහන්සේ එහි වැඩ සිටින ලෙස සඳහන් කළේය. භාග්‍යවතුන් වහන්සේ ආසනය මත වැඩ සිටි සේක. </p>
+  <p>​ "ඇයි බ්‍රාහ්මණතුමා, නොසතුටු සිතින් සිටින්නේ?" යනුවෙන් විමසූහ.</p>
+  <p>"එසේය ගෞතමයිනි, මගේ යව කෙත සම්පූර්ණයෙන්ම වතුරින් යටවිය; විනාශ වී ගියේය."</p>
+  <p>​එවිට බුදුරජාණන් වහන්සේ,<b> "බ්‍රාහ්මණතුමනි, විපතට පත් අවස්ථාවන්වලදී නොසතුටු වීමක්, දොම්නස් වීමක් සිදු නොකළ යුතුය. තමා බලාපොරොත්තු වන දේ ලැබුණු අවස්ථාවන්වලදී, ඉෂ්ට වූ අවස්ථාවන්වලදී අධික ලෙස සතුටු වීමක් නොකළ යුතුය" යනුවෙන් දේශනා කරමින් ධර්ම දේශනා කළහ.</b></p>
+  <p>​මේ ධර්ම දේශනාව අසා ඔහුගේ සිත ශාන්ත බවට පත් වූ පසු මෙම කාම සූත්‍රය දේශනා කළ සේක.මේ දේශනාව අසා බ්‍රාහ්මණතුමාද බ්‍රාහ්මණ තුමියද සෝතාපත්ති ඵලයට පත්විය. .</p>
+  <nav class="bottom"><a class="button next" href="2.html"><span>කාම සූත්‍රය සූත්‍ර විස්තරය</span>
+      <i class="material-icons ">arrow_forward</i></a></nav>
+</div>
+
+    </main>
+
+   
+
+    <!-- INFO FOOTER -->
+    <footer class="site-footer">
+    
+        <p class="footer-text">
+            📜 මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත.<br>
+            තවත් වටිනා දහම් කරුණු දැන ගැනීමට
+            <a href="https://suththa.org/" target="_blank" rel="noopener">
+                suththa.org
+            </a>
+        </p>
+    
+        <div class="social-links">
+    
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" title="YouTube">
+                <span class="material-icons">smart_display</span>
+            </a>
+    
+            <!-- Facebook -->
+            <a href="https://facebook.com/" target="_blank" rel="noopener" title="Facebook">
+                <span class="material-icons">facebook</span>
+            </a>
+    
+            <!-- Telegram -->
+            <a href="https://t.me/" target="_blank" rel="noopener" title="Telegram">
+                <span class="material-icons">send</span>
+            </a>
+    
+        </div>
+    
+    </footer>
+    </div>
+    <script src="../../common/jquery-3.4.1.min.js"></script>
+    <script src="../../common/clipboard.min.js"></script>
+    <script src="../../common/book.js"></script>
+    <script src="../../common/mytheme.js"></script>
+    </body>
+    
+    </html>

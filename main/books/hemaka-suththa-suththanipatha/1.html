@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>හේමක සූත්‍රය - හේමක සූත්‍රය</title>
+
+    <meta name="description" content="හේමක සූත්‍රය - දොලොස්වල උදිතධීර හිමි">
+    
+
+   
+    <meta name="keywords" content="KEYWORDSPLACEHOLDER">
+
+    <meta name="robots" content="index,follow">
+    
+   
+	<!-- Google Translate Widget Container -->
+<div id="google_translate_element" style="margin: 15px 0;"></div>
+
+<!-- Google Translate Script -->
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'si', // ඔබගේ වෙබ් අඩවියේ මූලික භාෂාව (ප්‍රධාන භාෂාව) මෙහි සඳහන් කරන්න
+            includedLanguages: 'si,ta,en,hi,fr,de', // පරිශීලකයින්ට ලබා දීමට අවශ්‍ය භාෂා (සිංහල, දෙමළ, ඉංග්‍රීසි ආදී වශයෙන් කැමති තරම් එකතු කළ හැක)
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+	
+	
+    <!-- ================= VIEWPORT ================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    
+    <!-- ================= OPEN GRAPH ================= -->
+   
+    <meta property="og:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://i.postimg.cc/Hx1hyKdc/og-books-500x300.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="300">
+
+    <!-- ================= TWITTER CARD ================= -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ත්‍රිපිටකය ආශ්‍රිත පොත්">
+    <meta name="twitter:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta name="twitter:image" content="https://suththa.org/common/og-books-500x300.png">
+    <!-- Open Graph -->
+    <meta property="og:title" content="හේමක සූත්‍රය - හේමක සූත්‍රය">
+    <meta property="og:description" content="හේමක සූත්‍රය - දොලොස්වල උදිතධීර හිමි">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://suththa.org/common/og-books-500x300.png">
+    
+    <!-- ================= PWA ================= -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="../../common/manifest.json">
+
+    <link rel="canonical" href="https://suththa.org/main/books/hemaka-suththa-suththanipatha/1.html">
+    <link rel="apple-touch-icon" href="../../common/apple-touch-icon.png">
+    <link rel="icon" href="../../common/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../common/favicon-96x96.png">
+    <link rel="stylesheet" href="../../common/book.css">
+    <link rel="stylesheet" href="../../common/mybook.css" />
+    <link rel="stylesheet" href="./pre-book.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Moved inline styles from book container into internal CSS to avoid inline styles */
+        .book-container {
+            width: 100%;
+            max-width: 90%;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            align-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- TOP NAV BAR -->
+    <header>
+    
+        <h1>පොත් ලැයිස්තුව</h1>
+    
+        <div class="header-actions">
+    
+            <!-- FONT - BUTTON -->
+            <button class="icon-btn" onclick="changeFont(-1)" title="Decrease Font">
+                <span class="material-icons">text_decrease</span>
+            </button>
+    
+            <!-- FONT + BUTTON -->
+            <button class="icon-btn" onclick="changeFont(1)" title="Increase Font">
+                <span class="material-icons">text_increase</span>
+            </button>
+
+            <!-- Bookmark -->
+            <button class="icon-btn" onclick="goBookmarks()" title="සුරකින ලද පිටු">
+                <span class="material-icons">bookmark</span>
+            </button>
+    
+            <!-- Home -->
+            <button class="icon-btn" onclick="goHome()" title="මුල් පිටුව">
+                <span class="material-icons">home</span>
+            </button>
+    
+            <!-- Dark Mode -->
+            <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="Dark Mode">
+                <span class="material-icons" id="themeIcon">dark_mode</span>
+            </button>
+    
+        </div>
+    
+    </header>
+    <body>
+        <div book-folder="." class="book-container">
+
+
+    <!-- READING PROGRESS BAR -->
+    <div id="progress"></div>
+
+    <!-- BOOK CONTENT -->
+    <main class="reader">
+
+        <div class="content">
+  <nav class="top"><a class="button" href="../index.html"><i class="material-icons ">home</i></a><i class="material-icons ">navigate_next</i><a class="button" href="index.html#1"><i class="material-icons ">toc</i>හේමක සූත්‍රය</a><i class="material-icons ">navigate_next</i></nav>
+  <div class="heading-bar">
+    <h1>හේමක සූත්‍රය</h1><i class="material-icons star-icon undefined" data-bookmark="{&quot;ids&quot;:[1],&quot;headings&quot;:[&quot;හේමක සූත්‍රය&quot;],&quot;book&quot;:{&quot;name&quot;:&quot;හේමක සූත්‍රය&quot;,&quot;folder&quot;:&quot;hemaka-suththa-suththanipatha&quot;}}">star_outline</i><i class="material-icons share-icon" file-name="1.html">share</i>
+  </div>
+  <p><i>සුත්ත නිපාතය පරායන වර්ගය</i></p>
+  <p>(ඉච්චායස්මා හේමකෝ)</p>
+  <div class="gatha">
+    <p>​යේ මේ පුබ්බේ වියාකංසු </p>
+    <p>හුරං ගෝතම සාසනං</p>
+    <p>ඉච්චාසි ඉති භවිස්සති</p>
+    <p>සබ්බං තං ඉතිහීතිහං</p>
+    <p>සබ්බං තං තක්කවඩ්ඪනං</p>
+    <p>නාහං තත්ථ අභිරමිං</p>
+  </div>
+  <p>​භාග්‍යවතුන් වහන්ස, පෙර බාවරී ආදී බ්‍රාහ්මණවරු "මෙසේ විය, මෙසේ වන්නේය" යනුවෙන් මා හට දේශනා කළහ. එම දහම "මෙසේය, මෙසේය" කියා පරම්පරාවෙන් එන කතා ඇති වෙයි. එය (කාම විතර්ක ආදී. ) තර්කය වර්ධනය කරයි. මම එහි නොඇලුනෙමි.</p>
+  <div class="gatha">
+    <p>​ත්වං ච මේ ධම්මමක්ඛාහි </p>
+    <p>තණ්හා නිග්ඝාතනං මුනි</p>
+    <p>යං විදිත්වා සතෝ චරං </p>
+    <p>තරේ ලෝකේ විසත්තිකං</p>
+  </div>
+  <p>මුනින්ද්‍රයන් වහන්ස, සිහියෙන් යුතුව යම් දහමක් දැනගෙන හැසිරෙන්නේ නම්, ලෝකයෙහි විසත්තික නම් වූ තණ්හාව තරණය කරන්නේද, ඔබ වහන්සේ මට තණ්හාව නසන, ධර්මයක් දේශනා කරනු මැනවි..</p>
+  <h3>භාග්‍යවතුන් වහන්සේගේ පිළිතුරු ගාථාව</h3>
+  <div class="gatha">
+    <p>​ඒතදඤ්ඤාය යේ සතා </p>
+    <p>දිට්ඨධම්මාභිනිබ්බුතා</p>
+    <p>උපසන්තා ච තේ සදා </p>
+    <p>තිණ්ණා ලෝකේ විසත්තිකන්ති</p>
+  </div>
+  <p>​(සිහියෙන් යුක්තව සබ්බේ සංඛාරා අනිච්චා ආදී වශයෙන් විදර්ශනාවෙන් අනුපිළිවෙළින්ම දැනගෙන යමෙක් කායානුපස්සනා ආදී සතිපට්ඨානයෙහි යෙදෙන්නේ නම් එය සතා යනුවෙන් හඳුන්වනු ලබයි. දිට්ඨධම්මාභිනිබ්බුතෝ යනු දන්නා ලද ධර්ම ඇති, දකින ලද ධර්ම ඇති, රාගාදි කෙලෙස් ගිනි නිවන ලද, විශේෂයෙන් නිවුණා වූ යන අර්ථය ඇති වචනයකි. එබඳු ලක්ෂණ ඇති සැමකල්හි උපශාන්ත වූ ඒ රහතන් වහන්සේ ලෝකයෙහි විසත්තිකා නම් වූ තණ්හාව තරණය කළහ යනු මෙම ගාථාවෙහි අටුවාගත අර්ථයයි.)</p>
+  <p>​සිහියෙන් යුක්ත වූ, දක්නා ලද අනිත්‍යාදී ධර්ම ඇති යම් රහතන් වහන්සේ කෙනෙක් මේ ජීවිතයේදීම නිවීමට පත් වූයේ, සැමදා උපශාන්ත වූයේ, උන්වහන්සේලා ලෝකයෙහි විසත්තිකා නම් තණ්හාව දුරු කළහ.</p>
+  <div class="gatha">
+    <p>දිට්ඨ සුත මුත යනු</p>
+    <p>රූප ශබ්ද ගන්ධ රස ඈ</p>
+    <p>පහස සිතුවිලි යන</p>
+    <p>බාහිර ආයතනම වේ</p>
+    <p>​ප්‍රියමනාප වූ මේ දෙය</p>
+    <p>කෙරෙහි පැවති තණ්හා සැම</p>
+    <p>නසා පියා සිටින කෙනා</p>
+    <p>නොමැරෙන නිවනට පත් වෙති</p>
+    <p>​අනිත්‍යාදී ධර්ම දැන</p>
+    <p>මෙලොව නිවුණු සැනසුණු ඒ</p>
+    <p>උපශාන්ත රහත් මුනිඳු</p>
+    <p>ලොව තණ්හා තරණය කළ</p>
+    <p>​හේමක මේ දහම අසා</p>
+    <p>පාප විතර්කය දුරලා</p>
+    <p>තණ්හා හැම සිඳ හැරලා</p>
+    <p>නිවනට පත් වනු සතොසා</p>
+  </div>
+  <nav class="bottom"></nav>
+</div>
+
+    </main>
+
+   
+
+    <!-- INFO FOOTER -->
+    <footer class="site-footer">
+    
+        <p class="footer-text">
+            📜 මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත.<br>
+            තවත් වටිනා දහම් කරුණු දැන ගැනීමට
+            <a href="https://suththa.org/" target="_blank" rel="noopener">
+                suththa.org
+            </a>
+        </p>
+    
+        <div class="social-links">
+    
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" title="YouTube">
+                <span class="material-icons">smart_display</span>
+            </a>
+    
+            <!-- Facebook -->
+            <a href="https://facebook.com/" target="_blank" rel="noopener" title="Facebook">
+                <span class="material-icons">facebook</span>
+            </a>
+    
+            <!-- Telegram -->
+            <a href="https://t.me/" target="_blank" rel="noopener" title="Telegram">
+                <span class="material-icons">send</span>
+            </a>
+    
+        </div>
+    
+    </footer>
+    </div>
+    <script src="../../common/jquery-3.4.1.min.js"></script>
+    <script src="../../common/clipboard.min.js"></script>
+    <script src="../../common/book.js"></script>
+    <script src="../../common/mytheme.js"></script>
+    </body>
+    
+    </html>

@@ -351,5 +351,77 @@
     <priority>0.8</priority>
 </url>
 
+<url>
+    <loc>https://suththa.org/main/books/anubuddha-suththa-an/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/anusotha-suththa-an/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/chunda-suththa-suththanipatha/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/dhammanudhammapatipaththi-suththa/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/duthiya-katha-suththa-an/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/hemaka-suththa-suththanipatha/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/meththagu-suththa-suththanipatha/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/mogaraja-suththa-suththanipatha/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/nanda-suththanipatha/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/patama-katha-suththa-an/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/posala-suththa-suththanipatha/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://suththa.org/main/books/udaya-suththa-suththanipatha/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
 
 </urlset>

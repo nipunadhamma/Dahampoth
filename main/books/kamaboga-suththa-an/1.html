@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>කාම්බෝජ සූත්‍රය - කාම්බෝජ සූත්‍රය</title>
+
+    <meta name="description" content="කාම්බෝජ සූත්‍රය - දොලොස්වල උදිතධීර හිමි">
+    
+
+   
+    <meta name="keywords" content="KEYWORDSPLACEHOLDER">
+
+    <meta name="robots" content="index,follow">
+    
+   
+	<!-- Google Translate Widget Container -->
+<div id="google_translate_element" style="margin: 15px 0;"></div>
+
+<!-- Google Translate Script -->
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'si', // ඔබගේ වෙබ් අඩවියේ මූලික භාෂාව (ප්‍රධාන භාෂාව) මෙහි සඳහන් කරන්න
+            includedLanguages: 'si,ta,en,hi,fr,de', // පරිශීලකයින්ට ලබා දීමට අවශ්‍ය භාෂා (සිංහල, දෙමළ, ඉංග්‍රීසි ආදී වශයෙන් කැමති තරම් එකතු කළ හැක)
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+	
+	
+    <!-- ================= VIEWPORT ================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    
+    <!-- ================= OPEN GRAPH ================= -->
+   
+    <meta property="og:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://i.postimg.cc/Hx1hyKdc/og-books-500x300.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="300">
+
+    <!-- ================= TWITTER CARD ================= -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ත්‍රිපිටකය ආශ්‍රිත පොත්">
+    <meta name="twitter:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta name="twitter:image" content="https://suththa.org/common/og-books-500x300.png">
+    <!-- Open Graph -->
+    <meta property="og:title" content="කාම්බෝජ සූත්‍රය - කාම්බෝජ සූත්‍රය">
+    <meta property="og:description" content="කාම්බෝජ සූත්‍රය - දොලොස්වල උදිතධීර හිමි">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://suththa.org/common/og-books-500x300.png">
+    
+    <!-- ================= PWA ================= -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="../../common/manifest.json">
+
+    <link rel="canonical" href="https://suththa.org/main/books/kamaboga-suththa-an/1.html">
+    <link rel="apple-touch-icon" href="../../common/apple-touch-icon.png">
+    <link rel="icon" href="../../common/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../common/favicon-96x96.png">
+    <link rel="stylesheet" href="../../common/book.css">
+    <link rel="stylesheet" href="../../common/mybook.css" />
+    <link rel="stylesheet" href="./pre-book.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Moved inline styles from book container into internal CSS to avoid inline styles */
+        .book-container {
+            width: 100%;
+            max-width: 90%;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            align-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- TOP NAV BAR -->
+    <header>
+    
+        <h1>පොත් ලැයිස්තුව</h1>
+    
+        <div class="header-actions">
+    
+            <!-- FONT - BUTTON -->
+            <button class="icon-btn" onclick="changeFont(-1)" title="Decrease Font">
+                <span class="material-icons">text_decrease</span>
+            </button>
+    
+            <!-- FONT + BUTTON -->
+            <button class="icon-btn" onclick="changeFont(1)" title="Increase Font">
+                <span class="material-icons">text_increase</span>
+            </button>
+
+            <!-- Bookmark -->
+            <button class="icon-btn" onclick="goBookmarks()" title="සුරකින ලද පිටු">
+                <span class="material-icons">bookmark</span>
+            </button>
+    
+            <!-- Home -->
+            <button class="icon-btn" onclick="goHome()" title="මුල් පිටුව">
+                <span class="material-icons">home</span>
+            </button>
+    
+            <!-- Dark Mode -->
+            <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="Dark Mode">
+                <span class="material-icons" id="themeIcon">dark_mode</span>
+            </button>
+    
+        </div>
+    
+    </header>
+    <body>
+        <div book-folder="." class="book-container">
+
+
+    <!-- READING PROGRESS BAR -->
+    <div id="progress"></div>
+
+    <!-- BOOK CONTENT -->
+    <main class="reader">
+
+        <div class="content">
+  <nav class="top"><a class="button" href="../index.html"><i class="material-icons ">home</i></a><i class="material-icons ">navigate_next</i><a class="button" href="index.html#1"><i class="material-icons ">toc</i>කාම්බෝජ සූත්‍රය</a><i class="material-icons ">navigate_next</i></nav>
+  <div class="heading-bar">
+    <h1>කාම්බෝජ සූත්‍රය</h1><i class="material-icons star-icon undefined" data-bookmark="{&quot;ids&quot;:[1],&quot;headings&quot;:[&quot;කාම්බෝජ සූත්‍රය&quot;],&quot;book&quot;:{&quot;name&quot;:&quot;කාම්බෝජ සූත්‍රය&quot;,&quot;folder&quot;:&quot;kamaboga-suththa-an&quot;}}">star_outline</i><i class="material-icons share-icon" file-name="1.html">share</i>
+  </div>
+  <p><i>අංගුත්තර නිකාය චතුක්ක නිපාතය</i></p>
+  <p>​<b>ඒකං සමයං භගවා කෝසම්බියං විහරති ඝෝසිතාරාමේ. අථ ඛෝ ආයස්මා ආනන්දෝ යේන භගවා තේනුපසංකමි. උපසංකමිත්වා භගවන්තං අභිවාදෙත්වා ඒකමන්තං නිසීදි. ඒකමන්තං නිසින්නෝ ඛෝ ආයස්මා ආනන්දෝ භගවන්තං ඒතදවෝච.</b></p>
+  <p>​එක් කාලයක භාග්‍යවතුන් වහන්සේ කොසඹෑ නුවර ඝෝසිතාරාමයෙහි වැඩ වාසය කරන සේක. එකල්හි ආයුෂ්මත් ආනන්ද ස්වාමීන් වහන්සේ භාග්‍යවතුන් වහන්සේ සමීපයට පැමිණියේය. පැමිණ භාග්‍යවතුන් වහන්සේට සකසා වන්දනා කර එකත්පසෙක හිඳගත්තේය. එකත්පසෙක හිඳගත්තා වූ ආයුෂ්මත් ආනන්ද ස්වාමීන් වහන්සේ භාග්‍යවතුන් වහන්සේට මෙය ප්‍රකාශ කළහ.</p>
+  <p>​<b>කෝ නු ඛෝ භන්තේ හේතු, කෝ පච්චයෝ, යේන මාතුගාමෝ නේව සභායං නිසීදති, න කම්මන්තං පයෝජේති, න කම්බෝජං ගච්ඡතීති?</b></p>
+  <p>​ස්වාමීනි, යම් හේතුවක් නිසා කාන්තාවන් විනිශ්චය සභාවෙහි වාඩි නොවේද, කර්මාන්ත හෙවත් රැකියා නොකරයිද, පිටරටකට නොයයිද, එයට හේතුව කවරේද? එයට ප්‍රත්‍යය කවරේද?</p>
+  <p>​<b>කෝධනෝ ආනන්ද මාතුගාමෝ, ඉස්සුකී ආනන්ද මාතුගාමෝ, මච්ඡරී ආනන්ද මාතුගාමෝ, දුප්පඤ්ඤෝ ආනන්ද මාතුගාමෝ.</b></p>
+  <p>​ආනන්දය, කාන්තාව කිපෙන ස්වභාවයෙන් යුක්තය. ආනන්දය, කාන්තාව ඉරිසියාව ඇති කෙනෙකි. කාන්තාව මසුරුකම ඇති කෙනෙකි. ආනන්දය, කාන්තාව නුවණ නැති කෙනෙකි.</p>
+  <p>​<b>අයං ඛෝ ආනන්ද හේතු, අයං පච්චයෝ, යේන මාතුගාමෝ නේව සභායං නිසීදති, න කම්මන්තං පයෝජේති, න කම්බෝජං ගච්ඡතීති</b>.</p>
+  <p>​ආනන්දය, යම් හේතුවක් නිසා කාන්තාවෝ විනිශ්චය සභාවෙහි වාඩි නොවෙයිද, කර්මාන්ත හෙවත් රැකියා නොකරයිද, පිටරටකට නොයයිද, මේ එයට හේතුවයි. මේ එයට ප්‍රත්‍යයයි.</p>
+  <div class="subhead">
+    <p>ධර්මාර්ථ විවරණය</p>
+  </div>
+  <p>​මෙම දේශනාවේ නම කාම්බෝජ සූත්‍රයයි. කාම්බෝජ යනු පිටරටකට කියන නමකි. විදෙස් රටවල් හඳුන්වන නාමයකි. තථාගතයන් වහන්සේ සමීපයට පැමිණි ආනන්ද තෙරුන් වහන්සේ, කාන්තාව විනිශ්චය සභාවෙහි වාඩි නොවීමටත්, කර්මාන්ත හෙවත් රැකියා නොකිරීමටත්, විදෙස් රටවල්වලට නොයාමටත් හේතුව කුමක්දැයි මෙසේ විමසූහ.</p>
+  <p>​තථාගතයන් වහන්සේ එම කාරණාවන්වලට හේතු පැහැදිලි කරමින් මෙම දේශනාව වදාළ සේක. කාන්තාව තුළ පවතින ක්‍රෝධය, ඉරිසියාව, මසුරුකම හා නුවණ නැති බවයි ඉහත සඳහන් කරන ලද වරප්‍රසාද නොලැබීමට හේතුවන බව තථාගතයන් වහන්සේ දේශනා කළහ. එයින් අපිට පැහැදිලි වන්නේ එම හේතූන් දුරුකර ගත් කල්හි කාන්තාවට සමාජය තුළින් ඉහළින් කැපී පෙනෙන, හොඳ රැකියාවක නිරත විය හැකි බවයි. හොඳ තනතුරුවලට, තානාන්තරවලට පත්විය හැකි බවයි. එබැවින් මෙම ක්ලේශයන් මැනවින් දැන හඳුනාගෙන ඒවා දුරුකර ගැනීම සඳහා කාන්තාවෝ කටයුතු කළ යුතු වෙති.</p>
+  <p>​ක්‍රෝධය යනු කුමක්ද?</p>
+  <p>​ක්‍රෝධය ව්‍යාපාදයට අයත් එක ස්වභාවයකි. තරහෙන් යුතු අවස්ථාවන්හිදී කයින්, වචනයෙන් තෙපළ ප්‍රකාශ කිරීම ක්‍රෝධයේ ස්වභාවයයි.</p>
+  <p><b>​"තත්ථ කතමෝ කෝධෝ? යෝ කෝධෝ කෝධායනා කෝධිතත්තං දෝසෝ දූසනා දූසිතත්තං බ්‍යාපාදෝ පදූසෝ මනෝපදෝසෝ චණ්ඩික්කං අස්සුරෝපෝ අනත්ථකාමතා චිත්තස්ස, අයං වුච්චති කෝධෝ." (පුග්ගල ප්‍රඥප්ති ප්‍රකරණය)</b></p>
+  <p>(එහි ක්‍රෝධය යනු කුමක්ද? යම් කිපීමක්, කිපෙන ස්වභාවයක්, කිපුණු බවක්, ද්වේෂයක්, දූෂණය වීමක්, දූෂිත බවක්, ව්‍යාපාදයක්, මනසේ දූෂණය වීමක්, සිතේ සැඩපරුෂ බවක්, නොසන්සුන් බවක්, අහිත කැමැත්තක් ඇද්ද, මෙය ක්‍රෝධය යැයි කියනු ලැබේ.)</p>
+  <p>​"<b>යෝ වේ උප්පතිතං කෝධං, රථං භන්තංව ධාරයේ; තමහං සාරථිං බ්‍රෑමි, රස්මිග්ගාහෝ ඉතරෝ ජනෝ."</b></p>
+  <p>(වේගයෙන් දුවන රථයක් මෙල්ල කරන්නාක් මෙන්, තමා තුළ උපදින ක්‍රෝධය යමෙක් වහාම පාලනය කරගන්නේද, මම ඔහුව සැබෑ රියදුරෙකු ලෙස කියමි. සෙසු පිරිස ලණුව අල්ලාගෙන සිටින්නන් පමණි.)</p>
+  <p>​<b>"අක්කෝච්ඡි මං අවධි මං, අජිනි මං අහාසි මේ; යේ තං උපනය්හන්ති, වේරං තේසං න සම්මති."</b></p>
+  <p>(ඔහු මට බැන්නේය, මට ගැසුවේය, මා පැරදවූයේය, මගේ ධනය පැහැරගත්තේය කියා යමෙක් වෛර බඳින්නේද, ඔවුන්ගේ වෛරය කිසිදා නොසංසිඳේ.)</p>
+  <p>​<b>"න හි වේරේන වේරානි, සම්මන්තීධ කුදාචනං; අවේරේන ච සම්මන්ති, ඒස ධම්මෝ සනන්තනෝ." (ධම්ම පදය)</b></p>
+  <p>(මේ ලෝකයෙහි වෛරයෙන් වෛරය කිසි කලෙකත් නොසංසිඳේ. වෛරය නොමැති වීමෙන් (මෛත්‍රියෙන්) ම වෛරය සංසිඳේ. මෙය සදාතනික ධර්මතාවයකි.)</p>
+  <p><b>​"කෝධෝ අත්ථං න ජානාති, කෝධෝ ධම්මං න පස්සති; අන්ධතමං තදා හෝති, යං කෝධෝ සහතේ නරං." (අංගුත්තර නිකාය)</b></p>
+  <p>(ක්‍රෝධයෙන් පිරුණු මිනිසා තමාගේ හෝ අනුන්ගේ යහපත (අර්ථය) නොදනියි. ක්‍රෝධයෙන් මුලා වූවන් ධර්මය නොදකිති. ක්‍රෝධය විසින් යම් මිනිසෙකු යටපත් කරනු ලැබුවේද, එකල ඔහු ඝනාන්ධකාරයකට (මහා මුලාවකට) පත්වේ.)</p>
+  <p><b>​"පරස්ස කෝපේන කිං තුය්හං? සකභාගං න දූසයේ; තත්තකපාලං හත්ථේන, ගණ්හන්තෝව ප්‍රදය්හසි."</b></p>
+  <p>(අනුන්ගේ කෝපය ගැන සිතා ඔබ කුමකට ළතැවෙන්නේද? ඔබ ඔබේම සිත දූෂණය කර නොගන්න. එය හරියට රත් වූ යකඩ කැබැල්ලක් අතින් අල්ලාගෙන තමාගේම අත පුළුස්සා ගැනීමට සමානය.)</p>
+  <p>​මෙසේ නොයෙක් ආකාරයෙන් ක්‍රෝධයෙහි ආදීනව විමසා බලා ක්‍රෝධය යටපත් කරගත යුතුය. සමථ භාවනාවකින් හෝ විදර්ශනා භාවනාවකින් හෝ සමාධියක් ලබාගත් විට ක්‍රෝධය ඉතා ප්‍රබලව යටපත් වෙයි. අනාගාමී මාර්ගඥානයෙන් ක්‍රෝධය සම්පූර්ණයෙන්ම ප්‍රහාණය වෙයි.</p>
+  <p>​ඉරිසියාව යනු කුමක්ද?</p>
+  <p>​අන්සතු වස්තුවට අකමැති ස්වභාවය ඉරිසියාව යන නමින් හඳුන්වනු ලබයි. ඉරිසියාව සිත තුළ හටගත් කල්හි අන් අය දියුණු වෙනවා දැකීමට අකමැතිය. අන් අයගේ දක්ෂතාවයන් දැකීමට, ඇසීමට අකමැතිය. ඉරිසියාව මහත් වූ පාපයකි. එම පාපය නිසා මතු උපදින ජීවිතවලදී දුප්පත්ව, අසරණව, භෝග සම්පත්වලින් තොර ජීවිත ලබන්නේය. ඉරිසියාවේ ඇති ආදීනව නුවණින් සලකා ඉරිසියාව යටපත් කර ගත යුතුය. ඉරිසියාව දුරු කිරීම සඳහා තිබෙන භාවනා ක්‍රමය මුදිතාවයි. "යථා ලද්ධ සම්පත්තිතෝ මාවිගච්ඡන්තු" - ලද සැපතින් නොපිරිහේවා කියා නිතර නිතර සිතීමෙන් මුදිතා ගුණය වර්ධනය වෙයි. "මොහු ලද සැපතින් නොපිරිහේවා! මොහු තව තව සම්පත් ඇති කෙනෙක් වේවා! ලැබූ සම්පත් දිනෙන් දින දියුණුවේවා!" මෙබඳු සිතුවිලි බහුල කරන්න. එවිට ඉරිසියාව යටපත් වී යයි.</p>
+  <p>​මසුරුකම යනු කුමක්ද?</p>
+  <p>​තමා සතු වස්තුව අන් කෙනෙකුට දීමට ඇති අකමැත්ත මසුරුකමයි. මසුරුකම නිසා දන් දීම සිදු නොකරනු ලැබේ. මසුරුකම ඇති තැනැත්තා තමා සතු වස්තුව සඟවනු ලැබේ. මච්ඡේර සිටුතුමා මසුරුකම නිසා කැවුමක් කෑමට විඳි දුක මෙහිලා සිහිපත් කරගත යුතුය. දානය, පරිත්‍යාගය පුරුදු පුහුණු කිරීම තුළින් මසුරුකම ජයගත හැකිය.</p>
+  <h3>​දුෂ්ප්‍රාඥ බව යනු කුමක්ද?</h3>
+  <p>​ප්‍රඥාව නැති බව දුෂ්ප්‍රාඥකයා හඳුන්වනු ලබයි. කර්මය, කර්ම ඵලය පිළිබඳ අවබෝධයක් නොමැති වීම, චතුරාර්ය සත්‍යය පිළිබඳ අවබෝධයක් නොමැති වීම ප්‍රඥාව නැති බවයි. කර්මය, කර්ම ඵලය පිළිබඳ ඉගෙන ගැනීමෙන්ද, චතුරාර්ය සත්‍යය ධර්මය ගැන ඉගෙන ගැනීමෙන්ද ප්‍රඥාව වර්ධනය කර ගත හැකිය. ප්‍රඥාව ලබන්නේ කෙසේදැයි ආලවක යක්ෂයා බුදුරජාණන් වහන්සේගෙන් විමසී ය. එවිට තථාගතයන් වහන්සේ මෙසේ දේශනා කළහ:</p>
+  <div class="gatha">
+    <p>​"සද්දහානෝ අරහතං</p>
+    <p>ධම්මං නිබ්බාන පත්තියා</p>
+    <p>සුසුසා ලබතේ පඤ්ඤං</p>
+    <p>අප්පමත්තෝ විචක්ඛනෝ." (ආලවක සූත්‍රය, සංයුත්ත නිකාය)</p>
+  </div>
+  <p>(නිර්වාණයට පමුණුවන රහතන් වහන්සේලාගේ වචනය සද්ධාවෙන් පිළිගෙන, සිහියෙන් යුතුව, නුවණින් යුතුව ධර්මශ්‍රවණය කිරීමෙන් ප්‍රඥාව ලැබෙයි.)</p>
+  <p>​මෙහි සඳහන් කරන ලද ක්‍රෝධය, ඉරිසියාව, මසුරුකම හා ප්‍රඥාව නැති බව දුරුකරමින් කාන්තාව අභිමානවත් කෙනෙකු බවට පත් වේවා!</p>
+  <nav class="bottom"></nav>
+</div>
+
+    </main>
+
+   
+
+    <!-- INFO FOOTER -->
+    <footer class="site-footer">
+    
+        <p class="footer-text">
+            📜 මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත.<br>
+            තවත් වටිනා දහම් කරුණු දැන ගැනීමට
+            <a href="https://suththa.org/" target="_blank" rel="noopener">
+                suththa.org
+            </a>
+        </p>
+    
+        <div class="social-links">
+    
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" title="YouTube">
+                <span class="material-icons">smart_display</span>
+            </a>
+    
+            <!-- Facebook -->
+            <a href="https://facebook.com/" target="_blank" rel="noopener" title="Facebook">
+                <span class="material-icons">facebook</span>
+            </a>
+    
+            <!-- Telegram -->
+            <a href="https://t.me/" target="_blank" rel="noopener" title="Telegram">
+                <span class="material-icons">send</span>
+            </a>
+    
+        </div>
+    
+    </footer>
+    </div>
+    <script src="../../common/jquery-3.4.1.min.js"></script>
+    <script src="../../common/clipboard.min.js"></script>
+    <script src="../../common/book.js"></script>
+    <script src="../../common/mytheme.js"></script>
+    </body>
+    
+    </html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>සේඛබල විත්ථත සුත්තං - සේඛබල විත්ථත සුත්තං</title>
+
+    <meta name="description" content="සේඛබල විත්ථත සුත්තං - දොලොස්වල උදිතධීර හිමි">
+    
+
+   
+    <meta name="keywords" content="KEYWORDSPLACEHOLDER">
+
+    <meta name="robots" content="index,follow">
+    
+   
+	<!-- Google Translate Widget Container -->
+<div id="google_translate_element" style="margin: 15px 0;"></div>
+
+<!-- Google Translate Script -->
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'si', // ඔබගේ වෙබ් අඩවියේ මූලික භාෂාව (ප්‍රධාන භාෂාව) මෙහි සඳහන් කරන්න
+            includedLanguages: 'si,ta,en,hi,fr,de', // පරිශීලකයින්ට ලබා දීමට අවශ්‍ය භාෂා (සිංහල, දෙමළ, ඉංග්‍රීසි ආදී වශයෙන් කැමති තරම් එකතු කළ හැක)
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+	
+	
+    <!-- ================= VIEWPORT ================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    
+    <!-- ================= OPEN GRAPH ================= -->
+   
+    <meta property="og:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://i.postimg.cc/Hx1hyKdc/og-books-500x300.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="300">
+
+    <!-- ================= TWITTER CARD ================= -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ත්‍රිපිටකය ආශ්‍රිත පොත්">
+    <meta name="twitter:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta name="twitter:image" content="https://suththa.org/common/og-books-500x300.png">
+    <!-- Open Graph -->
+    <meta property="og:title" content="සේඛබල විත්ථත සුත්තං - සේඛබල විත්ථත සුත්තං">
+    <meta property="og:description" content="සේඛබල විත්ථත සුත්තං - දොලොස්වල උදිතධීර හිමි">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://suththa.org/common/og-books-500x300.png">
+    
+    <!-- ================= PWA ================= -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="../../common/manifest.json">
+
+    <link rel="canonical" href="https://suththa.org/main/books/sekabala-viththatha-suththa-an/1.html">
+    <link rel="apple-touch-icon" href="../../common/apple-touch-icon.png">
+    <link rel="icon" href="../../common/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../common/favicon-96x96.png">
+    <link rel="stylesheet" href="../../common/book.css">
+    <link rel="stylesheet" href="../../common/mybook.css" />
+    <link rel="stylesheet" href="./pre-book.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Moved inline styles from book container into internal CSS to avoid inline styles */
+        .book-container {
+            width: 100%;
+            max-width: 90%;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            align-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- TOP NAV BAR -->
+    <header>
+    
+        <h1>පොත් ලැයිස්තුව</h1>
+    
+        <div class="header-actions">
+    
+            <!-- FONT - BUTTON -->
+            <button class="icon-btn" onclick="changeFont(-1)" title="Decrease Font">
+                <span class="material-icons">text_decrease</span>
+            </button>
+    
+            <!-- FONT + BUTTON -->
+            <button class="icon-btn" onclick="changeFont(1)" title="Increase Font">
+                <span class="material-icons">text_increase</span>
+            </button>
+
+            <!-- Bookmark -->
+            <button class="icon-btn" onclick="goBookmarks()" title="සුරකින ලද පිටු">
+                <span class="material-icons">bookmark</span>
+            </button>
+    
+            <!-- Home -->
+            <button class="icon-btn" onclick="goHome()" title="මුල් පිටුව">
+                <span class="material-icons">home</span>
+            </button>
+    
+            <!-- Dark Mode -->
+            <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="Dark Mode">
+                <span class="material-icons" id="themeIcon">dark_mode</span>
+            </button>
+    
+        </div>
+    
+    </header>
+    <body>
+        <div book-folder="." class="book-container">
+
+
+    <!-- READING PROGRESS BAR -->
+    <div id="progress"></div>
+
+    <!-- BOOK CONTENT -->
+    <main class="reader">
+
+        <div class="content">
+  <nav class="top"><a class="button" href="../index.html"><i class="material-icons ">home</i></a><i class="material-icons ">navigate_next</i><a class="button" href="index.html#1"><i class="material-icons ">toc</i>සේඛබල විත්ථත සුත්තං</a><i class="material-icons ">navigate_next</i></nav>
+  <div class="heading-bar">
+    <h1>සේඛබල විත්ථත සුත්තං</h1><i class="material-icons star-icon undefined" data-bookmark="{&quot;ids&quot;:[1],&quot;headings&quot;:[&quot;සේඛබල විත්ථත සුත්තං&quot;],&quot;book&quot;:{&quot;name&quot;:&quot;සේඛබල විත්ථත සුත්තං&quot;,&quot;folder&quot;:&quot;sekabala-viththatha-suththa-an&quot;}}">star_outline</i><i class="material-icons share-icon" file-name="1.html">share</i>
+  </div>
+  <p>අංගුත්තර නිකාය පඤ්චක නිපාතෝ</p>
+  <p>​</p>
+  <p>(සාවත්ථිනිදානං:)</p>
+  <p>​සැවැත් නුවරදීය...</p>
+  <p>​<b>පඤ්චිමානි භික්ඛවේ සේඛබලානි. කතමානි පඤ්ච: සද්ධාබලං හිරිබලං ඔත්තප්පබලං විරියබලං පඤ්ඤාබලං.</b></p>
+  <p>​මහණෙනි, මේ සේඛ බල පහකි. එම පහ කවරේද: සද්ධා බලය, හිරි බලය, ඔත්තප්ප බලය, වීර්ය බලය, ප්‍රඥා බලය. මහණෙනි, මේවා පංච සේඛ බල ධර්මයෝය.</p>
+  <p>​<b>කතමඤ්ච භික්ඛවේ සද්ධාබලං: ඉධ භික්ඛවේ අරියසාවකෝ සද්ධෝ හෝති. සද්දහති තථාගතස්ස බෝධිං: “ඉතිපි සෝ භගවා අරහං සම්මාසම්බුද්ධෝ විජ්ජාචරණසම්පන්නෝ සුගතෝ ලෝකවිදූ අනුත්තරෝ පුරිසදම්මසාරථී සත්ථා දේවමනුස්සානං බුද්ධෝ භගවා”ති. ඉදං වුච්චති භික්ඛවේ සද්ධාබලං.</b></p>
+  <p>​මහණෙනි, සද්ධා බලය යනු කුමක්ද? මහණෙනි, මෙම ශාසනයෙහි ආර්ය ශ්‍රාවකයා සද්ධාව ඇති කෙනෙකු වෙයි. මෙසේ ඒ භාග්‍යවතුන් වහන්සේ සියලු කෙලෙසුන් කෙරෙන් දුරු වූ බැවින්ද, කෙලෙස් සතුරන් නැසූ බැවින්ද, සංසාර චක්‍රයෙහි කෙලෙස් අර සිඳලූ බැවින්ද, ආමිස ප්‍රතිපත්ති පූජාවන්ට සුදුසු වන බැවින්ද, රහසින්වත් පව් නොකළ බැවින්ද, අරහං වන සේක.</p>
+  <p>​මෙසේ ඒ භාග්‍යවතුන් වහන්සේ තමන් වහන්සේ විසින්ම සියලු ධර්මයන් අවබෝධ කොට වදාළ බැවින් සම්මාසම්බුද්ධ වන සේක.</p>
+  <p>​මෙසේ ඒ භාග්‍යවතුන් වහන්සේ අෂ්ට විද්‍යාවන්ගෙන්ද පසළොස් චරණ ධර්මයන්ගෙන්ද සමන්වාගත වන බැවින් විජ්ජාචරණසම්පන්න වන සේක.</p>
+  <p>​මෙසේ ඒ භාග්‍යවතුන් වහන්සේ සුන්දර නිවන් මාර්ගයෙහි ගමන් කළ බැවින්ද, සුන්දර වූ නිර්වාණස්ථානයට පැමිණ වදාළ බැවින්ද, සුන්දර මිහිරි වචනවලින් සද්ධර්මය දේශනා කළ බැවින්ද, ප්‍රහාණය කරන ලද කෙලෙස් වෙත නැවත නොපැමිණි බැවින්ද, දීපංකර පාදමූලයේ පටන් බෝධි මණ්ඩලය දක්වා පාරමී, උපපාරමී, පරමත්ථ පාරමී පුරමින් අන්ත දෙකට නොගොස් බුද්ධ රාජ්‍යයට වැඩම කළ බැවින්ද සුගතෝ වන සේක.</p>
+  <p>​මෙසේ ඒ භාග්‍යවතුන් වහන්සේ පංච උපාදානස්කන්ධ ලෝකය චතුරාර්ය සත්‍ය වශයෙන් අවබෝධ කොට වදාළ බැවින්ද, සත්ව ලෝකය, සංස්කාර ලෝකය, අවකාශ ලෝකය දැන වදාළ බැවින්ද ලෝකවිදූ වන සේක.</p>
+  <p>​මෙසේ ඒ භාග්‍යවතුන් වහන්සේ සීල, සමාධි, ප්‍රඥා, විමුක්ති, විමුක්ති ඥාන දර්ශනයන්ගෙන් උත්තරීතර වන බැවින්ද, කිසිවෙකුට සම කළ නොහැකි බැවින් අසම වන බැවින්ද, අතීත බුදුවරුන්ට සමාන වන බැවින් අසමසම වන බැවින්ද, ප්‍රතිමා කළ නොහැකි බැවින් අප්‍රතිම වන බැවින්ද අනුත්තර වන සේක. දමනය කළ යුතු වූ අදාන්ත පුද්ගලයන් දමනය කළ බැවින්ද, දමනය කළ යුතු වූ අවිනීත පුද්ගලයන් විනීත කරමින් දමනය කළ බැවින්ද, දමනය කළ යුතු වූ ආලවක, අංගුලිමාල ආදී සැඩපරුෂ පුරුෂයන් සාන්ත බවට පත්කරමින් දමනය කළ බැවින්ද, දමනය වූ පුද්ගලයන් තවදුරටත් නිවන් මඟ හික්මවා දමනය කළ බැවින්ද අනුත්තර පුරිසදම්මසාරථී වන සේක.</p>
+  <p>​මෙසේ ඒ භාග්‍යවතුන් වහන්සේ මෙලොව යහපත පිණිස අවවාද අනුශාසනා කළ බැවින්ද, පරලොව සුගතිය පිණිස අවවාද අනුශාසනා කළ බැවින්ද, නිර්වාණ පරමාර්ථය පිණිස අවවාද අනුශාසනා කළ බැවින්ද, දෙවි මිනිසුන්ගේ ශාස්තෘ වන සේක, සත්ථා දේවමනුස්සානං වන සේක.</p>
+  <p>​මෙසේ ඒ භග්‍යවතුන් වහන්සේ චතුරාර්ය සත්‍ය ධර්මය අවබෝධ කොට අන් අයට අවබෝධ කර වූ බැවින්ද, සියල්ල දන්නා සර්වඥතා ඥානයෙන් යුක්ත වන බැවින්ද, සියල්ල දකිනා සබ්බදස්සාවී ඥානයෙන් යුක්ත වන බැවින්ද, ඒකාන්තයෙන්ම රාගය දුරු කළ බැවින්ද, ඒකාන්තයෙන් ද්වේෂය දුරු කළ බැවින්ද, ඒකාන්තයෙන් මෝහය දුරු කළ බැවින්ද, ඒකාන්තයෙන් ලාමක පාපක අකුසල ධර්මයන් දුරු කළ බැවින්ද බුද්ධ වන සේක.</p>
+  <p>​මෙසේ ඒ භාග්‍යවතුන් වහන්සේ රාගය බිඳ දැමූ බැවින්ද, ද්වේෂය බිඳ දැමූ බැවින්ද, මෝහය බිඳ දැමූ බැවින්ද, ලාමක පාපක අකුසල ධර්මයන් බිඳ දැමූ බැවින්ද, නිකෙලෙස් වූ බැවින්ද භගවා වන සේක. මෙසේ නොයෙක් ආකාරයෙන් තථාගතයන් වහන්සේගේ අවබෝධය හෙවත් සර්වඥතා ඥානය විශ්වාස කිරීම, පිළිගැනීම සද්ධා සේඛ බලය</p>
+  <p><b>කතමඤ්ච භික්ඛවේ හිරිබලං: ඉධ භික්ඛවේ අරියසාවකෝ හිරිමා හෝති. හිරීයති කායදුච්චරිතේන, වචීදුච්චරිතේන, මනෝදුච්චරිතේන. හිරීයති පාපකානං අකුසලානං ධම්මානං සමාපත්තියා. ඉදං වුච්චති භික්ඛවේ හිරිබලං.</b></p>
+  <p>​මහණෙනි, හිරි බලය කවරේද? මහණෙනි, මේ ශාසනයෙහි ආර්ය ශ්‍රාවකයා හිරි (පවට ලැජ්ජාවීම, පව පිළිකුල් කිරීම, පවට ගර්හා කිරීම) ගුණයෙන් යුක්ත වෙයි. කාය දුෂ්චරිතය, වචී දුෂ්චරිතය, මනෝ දුෂ්චරිතය පිළිකුල් කරයි. ලාමක අකුසල ධර්මයන් කිරීම පිළිකුල් කරයි. මහණෙනි, මෙය හිරි බලය යැයි කියනු ලැබේ.</p>
+  <p>​<b>කතමඤ්ච භික්ඛවේ ඔත්තප්පබලං: ඉධ භික්ඛවේ අරියසාවකෝ ඔත්තප්පී හෝති. ඔත්තප්පති කායදුච්චරිතේන, වචීදුච්චරිතේන, මනෝදුච්චරිතේන. ඔත්තප්පති පාපකානං අකුසලානං ධම්මානං සමාපත්තියා. ඉදං වුච්චති භික්ඛවේ ඔත්තප්පබලං.</b></p>
+  <p>​මහණෙනි, ඔත්තප්ප බලය යනු කවරේද? මහණෙනි, මේ ශාසනයෙහි ආර්ය ශ්‍රාවකයා ඔත්තප්ප (පවට බයවීම) ගුණයෙන් යුක්ත වෙයි. කාය දුෂ්චරිතයෙහි යෙදීමට, වචී දුෂ්චරිතයෙහි යෙදීමට, මනෝ දුෂ්චරිතයෙහි යෙදීමට බයවෙයි. ලාමක අකුසල ධර්මයන්හි යෙදීමට බයවෙයි. මහණෙනි, මෙය ඔත්තප්ප බලය යැයි කියනු ලැබේ.</p>
+  <p>​<b>කතමඤ්ච භික්ඛවේ විරියබලං: ඉධ භික්ඛවේ අරියසාවකෝ ආරද්ධවිරියෝ විහරති අකුසලානං ධම්මානං පහානාය, කුසලානං ධම්මානං උපසම්පදාය, ථාමවා දළ්හපරක්කමෝ අනික්ඛිත්තධුරෝ කුසලේසු ධම්මේසු. ඉදං වුච්චති භික්ඛවේ විරියබලං.</b></p>
+  <p>​මහණෙනි, වීර්ය බලය යනු කුමක්ද? මහණෙනි! මේ බුද්ධ ශාසනයෙහි ආර්ය ශ්‍රාවකයා අකුසල ධර්මයන් ප්‍රහාණය කිරීම පිණිසද, කුසල ධර්මයන් උපදවා ගැනීම පිණිසද, ස්ථිර වූ, දැඩි වූ පරාක්‍රම ඇත්තේ, කුසල ධර්මයන්හි වගකීම අත්නොහරින (අනික්ඛිත්තධුර) වීර්ය ඇත්තේ වෙයි. මහණෙනි, මෙය වීර්ය බලය යැයි කියනු ලැබේ.</p>
+  <p>​<b>කතමඤ්ච භික්ඛවේ පඤ්ඤාබලං: ඉධ භික්ඛවේ අරියසාවකෝ පඤ්ඤවා හෝති, උදයත්ථගාමිනියා පඤ්ඤාය සමන්නාගතෝ අරියාය නිබ්බේධිකාය සම්මාදුක්ඛක්ඛයගාමිනියා. ඉදං වුච්චති භික්ඛවේ පඤ්ඤාබලං.</b></p>
+  <p>​මහණෙනි, ප්‍රඥා බලය කවරේද? මහණෙනි, මේ බුද්ධ ශාසනයෙහි ආර්ය ශ්‍රාවකයා ස්කන්ධයන්ගේ ඇතිවීම හා නැතිවීම දැකීමට සමර්ථ වූ, ආර්ය වූ, කෙලෙස් බිඳ දැමීමට සමත් බැවින් නිබ්බේධික වූ, මනාකොට දුක ගෙවා දමන්නා වූ ප්‍රඥාවෙන් යුක්ත වෙයි. මහණෙනි, මෙය ප්‍රඥා බලය යැයි කියනු ලැබේ.</p>
+  <p>​<b>ඉමානි ඛෝ භික්ඛවේ පඤ්ච සේඛබලානි.</b></p>
+  <p>​මහණෙනි, මේ වනාහී පංච සේඛ බලයෝ ය.</p>
+  <p>​<b>තස්මාතිහ භික්ඛවේ ඒවං සික්ඛිතබ්බං: සද්ධාබලේන සමන්නාගතා භවිස්සාම සේඛබලේන. හිරිබලේන සමන්නාගතා භවිස්සාම සේඛබලේන. ඔත්තප්පබලේන සමන්නාගතා භවිස්සාම සේඛබලේන. විරියබලේන සමන්නාගතා භවිස්සාම සේඛබලේන. පඤ්ඤාබලේන සමන්නාගතා භවිස්සාම සේඛබලේනාති. ඒවං හි වෝ භික්ඛවේ සික්ඛිතබ්බන්ති.</b></p>
+  <p>​එම නිසා මහණෙනි, මෙසේ හික්මිය යුතුය: සේඛ බලයක් වූ සද්ධා බලයෙන් යුක්ත වන්නෙමු. සේඛ බලයක් වූ හිරි බලයෙන් යුක්ත වන්නෙමු. සේඛ බලයක් වූ ඔත්තප්ප බලයෙන් යුක්ත වන්නෙමු. සේඛ බලයක් වූ වීර්ය බලයෙන් යුක්ත වන්නෙමු. සේඛ බලයක් වූ ප්‍රඥා බලයෙන් යුක්ත වන්නෙමු. මහණෙනි, මෙසේ ඔබලා විසින් හික්මිය යුතුය.</p>
+  <p>ධර්මාර්ථ විස්තරය</p>
+  <p>​සේඛ යනු හික්මෙන පුද්ගලයා ය. ආර්ය අෂ්ටාංගික මාර්ගය තුළ හික්මෙන තැනැත්තා සේඛ යන නමින් හඳුන්වනු ලබයි. සේඛ පුද්ගලයෝ හත්දෙනෙකි:</p>
+  <p> සෝතාපත්ති මාර්ගයේ ගමන් කරන පුද්ගලයාය, සෝතාපත්ති ඵලය ලබාගත් පුද්ගලයාය, සකදාගාමී මාර්ගයේ ගමන් කරන පුද්ගලයාය, සකදාගාමී ඵලය ලබාගත් පුද්ගලයාය, අනාගාමී මාර්ගයේ ගමන් කරන පුද්ගලයාය, අනාගාමී ඵලය ලබාගත් පුද්ගලයාය, අරහත් මාර්ගයේ ගමන් කරන පුද්ගලයාය. යන මේ පුද්ගලයෝ හත්දෙනා සේඛ නමින් හඳුන්වනු ලබයි. ඔවුන් සතුව සේඛ බල පහක් තිබේ. එම සේඛ බල පහ මෙසේ අටුවාවෙහි පැහැදිලි කර තිබේ:</p>
+  <p><b>​"අස්සද්ධියේන න කම්පතීති සද්ධාබලං. අහිරිකේන න කම්පතීති හිරිබලං. අනොත්තප්පේන න කම්පතීති ඔත්තප්පබලං. කෝසජ්ජේන න කම්පතීති විරියබලං. අවිජ්ජාය න කම්පතීති පඤ්ඤාබලං." (අංගුත්තර නිකාය අට්ඨකථා)</b></p>
+  <p>​අස්සද්ධාවෙන් කම්පා නොවන බැවින් සද්ධා බලය කියා කියනු ලැබේ. පවට ලැජ්ජා නැතිකමින් (අහිරිකයෙන්) කම්පා නොවන බැවින් හිරි බලය කියා කියනු ලැබේ. පවට බිය නැතිකමින් (අනොත්තප්පයෙන්) කම්පා නොවන බැවින් ඔත්තප්ප බලය කියා කියනු ලැබේ. කුසීත බවින් කම්පා නොවන බැවින් වීර්යය බලය කියා කියනු ලැබේ. අවිද්‍යාවෙන් කම්පා නොවන බැවින් ප්‍රඥා බලය කියා කියනු ලැබේ. (අංගුත්තර නිකාය අට්ඨකථාව)</p>
+  <p>​<b>සද්දහති තථාගතස්ස බෝධිං:</b> තථාගතයන් වහන්සේගේ අවබෝධය හෙවත් සර්වඥතා ඥානය පිළිගැනීම සද්ධාවයි.</p>
+  <p>​ලජ්ජාවට පත්විය යුතු: කාය දුෂ්චරිතය, වචී දුෂ්චරිතය, මනෝ දුෂ්චරිතය කෙරෙහි ලැජ්ජාවට පත්වීම, පිළිකුල් කිරීම හිරි බලයයි.</p>
+  <p>​බියට පත්විය යුතු කාය දුෂ්චරිතය, වචී දුෂ්චරිතය, මනෝ දුෂ්චරිතය කෙරෙහි බියට පත්වීම ඔත්තප්ප ගුණයයි.</p>
+  <p>​අකුසල ධර්මයන් ප්‍රහාණය කොට...: කුසල ධර්මයන් උපදවා ගැනීම සඳහා ස්ථිර වූ, දැඩි, අත්නොහරින වීර්යයක යෙදීම වීර්යය බලයයි.</p>
+  <p>​අනිත්‍ය දුක්ඛ අනාත්ම යන ත්‍රිලක්ෂණය දකින... විදර්ශනා නුවණ ප්‍රඥා බලයයි.</p>
+  <nav class="bottom"></nav>
+</div>
+
+    </main>
+
+   
+
+    <!-- INFO FOOTER -->
+    <footer class="site-footer">
+    
+        <p class="footer-text">
+            📜 මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත.<br>
+            තවත් වටිනා දහම් කරුණු දැන ගැනීමට
+            <a href="https://suththa.org/" target="_blank" rel="noopener">
+                suththa.org
+            </a>
+        </p>
+    
+        <div class="social-links">
+    
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" title="YouTube">
+                <span class="material-icons">smart_display</span>
+            </a>
+    
+            <!-- Facebook -->
+            <a href="https://facebook.com/" target="_blank" rel="noopener" title="Facebook">
+                <span class="material-icons">facebook</span>
+            </a>
+    
+            <!-- Telegram -->
+            <a href="https://t.me/" target="_blank" rel="noopener" title="Telegram">
+                <span class="material-icons">send</span>
+            </a>
+    
+        </div>
+    
+    </footer>
+    </div>
+    <script src="../../common/jquery-3.4.1.min.js"></script>
+    <script src="../../common/clipboard.min.js"></script>
+    <script src="../../common/book.js"></script>
+    <script src="../../common/mytheme.js"></script>
+    </body>
+    
+    </html>

@@ -688,5 +688,195 @@
     "category": 6,
     "featured": false,
     "order": 999
+  },
+  {
+    "title": "චතුත්ථ පටිපදා සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "chathuththa-patipada-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/chathuththa-patipada-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "චවන සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "chawana-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/chawana-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "දුක්ඛ සුත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "dukka-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/dukka-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "දුතිය පීඨ විමාන වස්තුව",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "duthiya-pita-vimanavaththu-vm",
+    "cover": "",
+    "url": "https://suththa.org/main/books/duthiya-pita-vimanavaththu-vm/index.html",
+    "category": 9,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "දුතිය පුඤ්ඤාභිසන්ද සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "duthiya-punnabisanda-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/duthiya-punnabisanda-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "ගිහී සාමීචිපටිපදා සුත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "gihisamichipatipada-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/gihisamichipatipada-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "ඉන්ද්‍රිය සුත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "indriya-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/indriya-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "කාලකාරාම සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "kalakarama-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/kalakarama-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "කාම්බෝජ සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "kamaboga-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/kamaboga-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "කෝධගරු සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "kroda-garu-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/kroda-garu-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "පඤ්චම පටිපදා සුත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "panchama-patipada-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/panchama-patipada-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "පඨම අග්ග සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "patama-agga-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/patama-agga-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "පටිපදා සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "patipada-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/patipada-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "සාරන්ද සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "sarananda-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/sarananda-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "සේඛබල විත්ථත සුත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "sekabala-viththatha-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/sekabala-viththatha-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "සුප්පාවාස සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "suppawasa-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/suppawasa-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "තතිය පටිපදා සූත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "thathiya-patipada-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/thathiya-patipada-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "උග්ගහ සුත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "ugga-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/ugga-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "උපක්ලේස සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "upakkilesa-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/upakkilesa-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
   }
 ]

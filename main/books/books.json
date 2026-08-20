@@ -878,5 +878,115 @@
     "category": 8,
     "featured": false,
     "order": 999
+  },
+  {
+    "title": "ආතප්ප සූත්‍රය හෙවත් මූල සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "aathappa-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/aathappa-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "අසත්පුරිස දාන සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "asathpurisadana-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/asathpurisadana-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "බාල වර්ගය. හත්වන සූත්‍රය.",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "balawahhaga-7th-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/balawahhaga-7th-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "චක්ක සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "chakka-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/chakka-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "චූලපුණ්ණම සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "chulapunnama-suththa-mj",
+    "cover": "",
+    "url": "https://suththa.org/main/books/chulapunnama-suththa-mj/index.html",
+    "category": 2,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "ධම්මපද සුත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "dhammapada-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/dhammapada-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "පඨම සමජීවී සුත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "patama-samjivi-suththa an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/patama-samjivi-suththa an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "සප්පුරිස දාන සුත්තං",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "sappurisadana-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/sappurisadana-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "තතිය පටිපදා සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "thathiya-patipada-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/thathiya-patipada-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "විපල්ලාස සූත්‍රය.",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "vipallasa-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/vipallasa-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "පංච භෝග ආදිය සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "pancha-bogaadi-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/pancha-bogaadi-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
   }
 ]

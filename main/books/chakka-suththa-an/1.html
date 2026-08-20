@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>චක්ක සූත්‍රය - චක්ක සූත්‍රය</title>
+
+    <meta name="description" content="චක්ක සූත්‍රය - දොලොස්වල උදිතධීර හිමි">
+    
+
+   
+    <meta name="keywords" content="KEYWORDSPLACEHOLDER">
+
+    <meta name="robots" content="index,follow">
+    
+   
+	<!-- Google Translate Widget Container -->
+<div id="google_translate_element" style="margin: 15px 0;"></div>
+
+<!-- Google Translate Script -->
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'si', // ඔබගේ වෙබ් අඩවියේ මූලික භාෂාව (ප්‍රධාන භාෂාව) මෙහි සඳහන් කරන්න
+            includedLanguages: 'si,ta,en,hi,fr,de', // පරිශීලකයින්ට ලබා දීමට අවශ්‍ය භාෂා (සිංහල, දෙමළ, ඉංග්‍රීසි ආදී වශයෙන් කැමති තරම් එකතු කළ හැක)
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+	
+	
+    <!-- ================= VIEWPORT ================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    
+    <!-- ================= OPEN GRAPH ================= -->
+   
+    <meta property="og:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://i.postimg.cc/Hx1hyKdc/og-books-500x300.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="300">
+
+    <!-- ================= TWITTER CARD ================= -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ත්‍රිපිටකය ආශ්‍රිත පොත්">
+    <meta name="twitter:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta name="twitter:image" content="https://suththa.org/common/og-books-500x300.png">
+    <!-- Open Graph -->
+    <meta property="og:title" content="චක්ක සූත්‍රය - චක්ක සූත්‍රය">
+    <meta property="og:description" content="චක්ක සූත්‍රය - දොලොස්වල උදිතධීර හිමි">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://suththa.org/common/og-books-500x300.png">
+    
+    <!-- ================= PWA ================= -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="../../common/manifest.json">
+
+    <link rel="canonical" href="https://suththa.org/main/books/chakka-suththa-an/1.html">
+    <link rel="apple-touch-icon" href="../../common/apple-touch-icon.png">
+    <link rel="icon" href="../../common/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../common/favicon-96x96.png">
+    <link rel="stylesheet" href="../../common/book.css">
+    <link rel="stylesheet" href="../../common/mybook.css" />
+    <link rel="stylesheet" href="./pre-book.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Moved inline styles from book container into internal CSS to avoid inline styles */
+        .book-container {
+            width: 100%;
+            max-width: 90%;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            align-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- TOP NAV BAR -->
+    <header>
+    
+        <h1>පොත් ලැයිස්තුව</h1>
+    
+        <div class="header-actions">
+    
+            <!-- FONT - BUTTON -->
+            <button class="icon-btn" onclick="changeFont(-1)" title="Decrease Font">
+                <span class="material-icons">text_decrease</span>
+            </button>
+    
+            <!-- FONT + BUTTON -->
+            <button class="icon-btn" onclick="changeFont(1)" title="Increase Font">
+                <span class="material-icons">text_increase</span>
+            </button>
+
+            <!-- Bookmark -->
+            <button class="icon-btn" onclick="goBookmarks()" title="සුරකින ලද පිටු">
+                <span class="material-icons">bookmark</span>
+            </button>
+    
+            <!-- Home -->
+            <button class="icon-btn" onclick="goHome()" title="මුල් පිටුව">
+                <span class="material-icons">home</span>
+            </button>
+    
+            <!-- Dark Mode -->
+            <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="Dark Mode">
+                <span class="material-icons" id="themeIcon">dark_mode</span>
+            </button>
+    
+        </div>
+    
+    </header>
+    <body>
+        <div book-folder="." class="book-container">
+
+
+    <!-- READING PROGRESS BAR -->
+    <div id="progress"></div>
+
+    <!-- BOOK CONTENT -->
+    <main class="reader">
+
+        <div class="content">
+  <nav class="top"><a class="button" href="../index.html"><i class="material-icons ">home</i></a><i class="material-icons ">navigate_next</i><a class="button" href="index.html#1"><i class="material-icons ">toc</i>චක්ක සූත්‍රය</a><i class="material-icons ">navigate_next</i></nav>
+  <div class="heading-bar">
+    <h1>චක්ක සූත්‍රය</h1><i class="material-icons star-icon undefined" data-bookmark="{&quot;ids&quot;:[1],&quot;headings&quot;:[&quot;චක්ක සූත්‍රය&quot;],&quot;book&quot;:{&quot;name&quot;:&quot;චක්ක සූත්‍රය&quot;,&quot;folder&quot;:&quot;chakka-suththa-an&quot;}}">star_outline</i><i class="material-icons share-icon" file-name="1.html">share</i>
+  </div>
+  <p>අංගුත්තර නිකාය චතුක්ක නිපාතය</p>
+  <p>​සූත්‍රය පිළිබඳ මූලික හැඳින්වීම</p>
+  <p>​මෙම දේශනාවෙහි චක්‍ර ක්‍රියා හඳුන්වා ඇත්තේ සම්පත්තියයි. "<b>චතුචක්කං වත්තතීති චත්තාරි සම්පත්ති චක්කානි වත්තන්ති පවත්තන්ති ඝටීයන්ති යේවාති අත්ථෝ</b>" (සූත්‍ර අටුවාව) – චක්‍ර හතරක් රඳා පවතින්නේය යනු සම්පත් නැමැති චක්‍ර වන්නේය, පවතින්නේය, ගැටෙන්නේය යන අර්ථයයි. මේ අනුව මෙම දේශනාවෙහි චක්‍ර යනු සම්පත්තිය බව අටුවාවට අනුව පැහැදිලි කරගත හැකිය.</p>
+  <p>​</p>
+  <h3> චක්ක සුත්තං</h3>
+  <p>​(සාවත්ථි නිදානං)</p>
+  <p><b>​“චත්තාරිමානි භික්ඛවේ, චක්කානි, යේහි සමන්නාගතානං දේවමනුස්සානං චතුචක්කං වත්තති, යේහි සමන්නාගතා දේවමනුස්සා නචිරස්සේව මහන්තත්තං වේපුල්ලත්තං පාපුණන්ති භෝගේසු. කතමානි චත්තාරි? පතිරූපදේසවාසෝ, සප්පුරිසූපස්සයෝ, අත්තසම්මාපණිධි, පුබ්බේ ච කතපුඤ්ඤතා.”</b></p>
+  <p>​මහණෙනි, යමකින් යුක්ත වූ මිනිසුන්ට සම්පත් චක්‍ර හතර පවතින්නේද, යමකින් යුක්ත වූ දෙවියන් සහ මිනිසුන් කෙටි කාලයකින්ම භෝග සම්පත්වල මහත් බවට, විපුල බවට පැමිණෙත් නම්, එබඳු වූ චක්‍ර (සම්පත්) හතරක් තිබේ.</p>
+  <h3>එම චක්‍ර හතර කවරේද?</h3>
+  <p>සුදුසු ප්‍රදේශයක වාසය කිරීමය, සත්පුරුෂ ආශ්‍රය, තමා මනාකොට (ශ්‍රද්ධා ආදී ගුණධර්ම තුළ) පිහිටුවා ගැනීම, පෙර සසරෙහි කරන ලද පින් ඇති බව</p>
+  <p>.</p>
+  <p>​<b>ඉමානි ඛෝ භික්ඛවේ, චත්තාරි චක්කානි, යේහි සමන්නාගතානං දේවමනුස්සානං චතුචක්කං වත්තති, යේහි සමන්නාගතා දේවමනුස්සා නචිරස්සේව මහන්තත්තං වේපුල්ලත්තං පාපුණන්ති භෝගේසූ”ති.</b></p>
+  <p>​මහණෙනි, යමකින් යුක්ත වූ මිනිසුන්ට සම්පත් චක්‍ර හතර පවතින්නේද, යමකින් යුක්ත වූ දෙවියන් සහ මිනිසුන් කෙටි කාලයකින්ම භෝග සම්පත්වල මහත් බවට, විපුල බවට පැමිණෙත් නම්, එබඳු වූ මේ චක්‍ර (සම්පත්) හතරකි.</p>
+  <div class="gatha">
+    <p>​“පතිරූපේ වසේ දේසේ, අරියචිත්තකරෝ සියා;</p>
+    <p>සම්මාපණිධිසම්පන්නෝ, පුබ්බේ පුඤ්ඤකතෝ නරෝ;</p>
+    <p>ධඤ්ඤං ධනං යසෝ කිත්ති, සුඛං චේතාධිවත්තතී”ති.</p>
+  </div>
+  <p>​මිනිසා සුදුසු ප්‍රදේශයක වාසය කරන්නේය. ආර්යයන්ගේ සිත් අනුව කටයුතු කරන්නේය. තමා මනාකොට පිහිටුවා ගන්නේය. පෙර සසරෙහි කරන ලද පින් ඇති කෙනෙකු වන්නේය. ධාන්‍ය සම්පත්වලින්ද, ධනයෙන්ද, යසසින්ද, කීර්තියෙන්ද, සැපයන්ද එම පුද්ගලයාට ලැබෙන්නේය.</p>
+  <div class="subhead">
+    <p>ධර්මාර්ථ විවරණය</p>
+  </div>
+  <p>​පතිරූපදේශවාසෝච යනු සුදුසු ප්‍රදේශයක වාසය කිරීමයි. භික්ෂු, භික්ෂුණී, උපාසක, උපාසිකා යන සිව්වනක් පිරිස වාසය කරන ප්‍රදේශ සුදුසු ප්‍රදේශ බව අටුවාවේ දක්වා තිබේ. මහාමංගල සූත්‍ර අටුවාවට අනුව අනුත්තරීය ධර්ම හය ලැබෙන ප්‍රදේශ වාසයට</p>
+  <p> සුදුසු ප්‍රදේශ ලෙස දක්වයි. අංගුත්තර නිකායේ ඡක්ක නිපාතයේ සඳහන් වන අනුත්තර සූත්‍රයෙන් අනුත්තරීය ධර්ම පිළිබඳව දැනගත යුතුය. එම අනුත්තරීය ධර්ම ලැබෙන්නා වූ ප්‍රදේශ සුදුසු ප්‍රදේශයි. ශ්‍රී ලංකාදීපයද නිරන්තරයෙන්ම ත්‍රිවිධ රත්නය, ප්‍රතිමා, සංඝරත්නය ආදිය දක්නට ලැබෙන නිසාද, සිව්වනක් පිරිස දක්නට ලැබෙන නිසාද, දැකීම් අතර උතුම්ම දැකීම වන බුද්ධ රත්නය, සංඝරත්නය දකින්නට ලැබෙන බැවින් දස්සනානුත්තරියෙන් යුතු සුදුසු ප්‍රදේශයකි.</p>
+  <p>​ලංකාදීපය තුළ නිරන්තරයෙන්ම ත්‍රිපිටක ධර්මය ශ්‍රවණය කරන්නට ලැබෙයි. එබැවින් සවනානුත්තරිය ඇති උතුම් ප්‍රදේශයකි.</p>
+  <p><b>​“ඡ ඉමානි භික්ඛවේ අනුත්තරියානි. කතමානි ඡ?”</b></p>
+  <p>මහණෙනි, අනුත්තර ධර්ම හයකි. එම හය මොනවාද?</p>
+  <ol>
+    <li>​<b>දස්සනානුත්තරියං</b>: දැකීම් අතර උතුම්ම දෙය බුද්ධ රත්නය හෝ භික්ෂු සංඝයා දැකීමයි.</li>
+    <li><b> ​සවණානුත්තරියං</b>: සද්ධර්මය ශ්‍රවණය කිරීම ඇසීම් අතර උතුම්ම ඇසීමයි.</li>
+    <li><b> ​ලාභානුත්තරියං</b>: ශ්‍රද්ධා සම්පත්තිය ලැබීම ලැබීම් අතර උතුම්ම ලැබීමයි.</li>
+    <li><b> ​සික්ඛානුත්තරියං</b>: සීල, සමාධි, ප්‍රඥා තුළ හික්මීම හික්මීම් අතර උතුම්ම හික්මීමයි.</li>
+    <li><b> ​පාරිචරියානුත්තරියං</b>: බුදුරජාණන් වහන්සේටත් මහා සංඝරත්නයටත් වත්පිළිවෙත් කිරීම වත්පිළිවෙත් කිරීම් අතර උතුම්ම වත්පිළිවෙත් කිරීමයි.</li>
+    <li><b> ​අනුස්සතානුත්තරියං</b>: බුදුගුණ සිහිකිරීම, සඟ ගුණ සිහිකිරීම සිහිකිරීම අතර උතුම්ම සිහිකිරීමයි.</li>
+  </ol>
+  <p>​මෙම අනුත්තර ධර්ම ලැබෙන බැවින් ශ්‍රී ලංකාද්වීපය වාසය කිරීමට සුදුසු ප්‍රදේශයකි.</p>
+  <p>​සප්පුරිසසංසේවෝ</p>
+  <p>​බුදු, පසේබුදු, මහරහතන් වහන්සේලා සත්පුරුෂයෝය. සෙසු මාර්ගඵලලාභීහුද සත්පුරුෂයෝය. ත්‍රිපිටක ධර්මය පිළිබඳව දැන ඉගෙන ගත් උතුමෝද සත්පුරුෂයෝය. මුළු ත්‍රිපිටකයම දන්නා අය නැති කාලවලදී එක පිටකයක් හෝ ත්‍රිපිටකයෙන් එක කොටසක් හෝ දැනගත් අය සත්පුරුෂයෝ වෙති. එබඳු සත්පුරුෂයන් ඇසුරු කිරීමට ලැබෙන භූමියක් වන බැවින් ශ්‍රී ලංකාද්වීපය පතිරූපදේශවාසයකි.</p>
+  <p>​අත්තසම්මාපණිධිච</p>
+  <p>​තමා මනාකොට පිහිටුවා ගැනීම යනු තමා තුළ ශ්‍රද්ධා, වීර්යය, සති, සමාධි, ප්‍රඥා යන ගුණධර්ම පිහිටුවා ගැනීමයි.</p>
+  <p>​පුබ්බේච කතපුඤ්ඤතා</p>
+  <p>​යනු පෙර සසරෙහි රැස් කරන ලද කුසල කර්ම ඇති බවයි. පෙර සංසාර ජීවිතවලදී ඥානසම්පයුක්ත වූ කුසල ධර්මයන් සිදුකර තිබීම මින් අදහස් කරයි.</p>
+  <nav class="bottom"></nav>
+</div>
+
+    </main>
+
+   
+
+    <!-- INFO FOOTER -->
+    <footer class="site-footer">
+    
+        <p class="footer-text">
+            📜 මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත.<br>
+            තවත් වටිනා දහම් කරුණු දැන ගැනීමට
+            <a href="https://suththa.org/" target="_blank" rel="noopener">
+                suththa.org
+            </a>
+        </p>
+    
+        <div class="social-links">
+    
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" title="YouTube">
+                <span class="material-icons">smart_display</span>
+            </a>
+    
+            <!-- Facebook -->
+            <a href="https://facebook.com/" target="_blank" rel="noopener" title="Facebook">
+                <span class="material-icons">facebook</span>
+            </a>
+    
+            <!-- Telegram -->
+            <a href="https://t.me/" target="_blank" rel="noopener" title="Telegram">
+                <span class="material-icons">send</span>
+            </a>
+    
+        </div>
+    
+    </footer>
+    </div>
+    <script src="../../common/jquery-3.4.1.min.js"></script>
+    <script src="../../common/clipboard.min.js"></script>
+    <script src="../../common/book.js"></script>
+    <script src="../../common/mytheme.js"></script>
+    </body>
+    
+    </html>

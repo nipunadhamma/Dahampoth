@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>ධම්මපද සුත්තං - ධම්මපද සුත්තං</title>
+
+    <meta name="description" content="ධම්මපද සුත්තං - දොලොස්වල උදිතධීර හිමි">
+    
+
+   
+    <meta name="keywords" content="KEYWORDSPLACEHOLDER">
+
+    <meta name="robots" content="index,follow">
+    
+   
+	<!-- Google Translate Widget Container -->
+<div id="google_translate_element" style="margin: 15px 0;"></div>
+
+<!-- Google Translate Script -->
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'si', // ඔබගේ වෙබ් අඩවියේ මූලික භාෂාව (ප්‍රධාන භාෂාව) මෙහි සඳහන් කරන්න
+            includedLanguages: 'si,ta,en,hi,fr,de', // පරිශීලකයින්ට ලබා දීමට අවශ්‍ය භාෂා (සිංහල, දෙමළ, ඉංග්‍රීසි ආදී වශයෙන් කැමති තරම් එකතු කළ හැක)
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+	
+	
+    <!-- ================= VIEWPORT ================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    
+    <!-- ================= OPEN GRAPH ================= -->
+   
+    <meta property="og:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://i.postimg.cc/Hx1hyKdc/og-books-500x300.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="300">
+
+    <!-- ================= TWITTER CARD ================= -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ත්‍රිපිටකය ආශ්‍රිත පොත්">
+    <meta name="twitter:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta name="twitter:image" content="https://suththa.org/common/og-books-500x300.png">
+    <!-- Open Graph -->
+    <meta property="og:title" content="ධම්මපද සුත්තං - ධම්මපද සුත්තං">
+    <meta property="og:description" content="ධම්මපද සුත්තං - දොලොස්වල උදිතධීර හිමි">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://suththa.org/common/og-books-500x300.png">
+    
+    <!-- ================= PWA ================= -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="../../common/manifest.json">
+
+    <link rel="canonical" href="https://suththa.org/main/books/dhammapada-suththa-an/1.html">
+    <link rel="apple-touch-icon" href="../../common/apple-touch-icon.png">
+    <link rel="icon" href="../../common/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../common/favicon-96x96.png">
+    <link rel="stylesheet" href="../../common/book.css">
+    <link rel="stylesheet" href="../../common/mybook.css" />
+    <link rel="stylesheet" href="./pre-book.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Moved inline styles from book container into internal CSS to avoid inline styles */
+        .book-container {
+            width: 100%;
+            max-width: 90%;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            align-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- TOP NAV BAR -->
+    <header>
+    
+        <h1>පොත් ලැයිස්තුව</h1>
+    
+        <div class="header-actions">
+    
+            <!-- FONT - BUTTON -->
+            <button class="icon-btn" onclick="changeFont(-1)" title="Decrease Font">
+                <span class="material-icons">text_decrease</span>
+            </button>
+    
+            <!-- FONT + BUTTON -->
+            <button class="icon-btn" onclick="changeFont(1)" title="Increase Font">
+                <span class="material-icons">text_increase</span>
+            </button>
+
+            <!-- Bookmark -->
+            <button class="icon-btn" onclick="goBookmarks()" title="සුරකින ලද පිටු">
+                <span class="material-icons">bookmark</span>
+            </button>
+    
+            <!-- Home -->
+            <button class="icon-btn" onclick="goHome()" title="මුල් පිටුව">
+                <span class="material-icons">home</span>
+            </button>
+    
+            <!-- Dark Mode -->
+            <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="Dark Mode">
+                <span class="material-icons" id="themeIcon">dark_mode</span>
+            </button>
+    
+        </div>
+    
+    </header>
+    <body>
+        <div book-folder="." class="book-container">
+
+
+    <!-- READING PROGRESS BAR -->
+    <div id="progress"></div>
+
+    <!-- BOOK CONTENT -->
+    <main class="reader">
+
+        <div class="content">
+  <nav class="top"><a class="button" href="../index.html"><i class="material-icons ">home</i></a><i class="material-icons ">navigate_next</i><a class="button" href="index.html#1"><i class="material-icons ">toc</i>ධම්මපද සුත්තං</a><i class="material-icons ">navigate_next</i></nav>
+  <div class="heading-bar">
+    <h1>ධම්මපද සුත්තං</h1><i class="material-icons star-icon undefined" data-bookmark="{&quot;ids&quot;:[1],&quot;headings&quot;:[&quot;ධම්මපද සුත්තං&quot;],&quot;book&quot;:{&quot;name&quot;:&quot;ධම්මපද සුත්තං&quot;,&quot;folder&quot;:&quot;dhammapada-suththa-an&quot;}}">star_outline</i><i class="material-icons share-icon" file-name="1.html">share</i>
+  </div>
+  <p>අංගුත්තර නිකාය චතුක්ක නිපාතෝ</p>
+  <p><b>“චත්තාරිමානි, භික්ඛවේ, ධම්මපදානි අග්ගඤ්ඤානි, රත්තඤ්ඤානි, වංසඤ්ඤානි, පෝරාණානි, අසංකිණ්ණානි, අසංකිණ්ණපුබ්බානි, න සංකීයන්ති, න සංකීයිස්සන්ති, අප්පතිකුට්ඨානි සමණේහි බ්‍රාහ්මණේහි විඤ්ඤූූහි. කතමානි චත්තාරි?</b></p>
+  <p>අනභිජ්ඣා භික්ඛවේ, ධම්මපදං අග්ගඤ්ඤං, රත්තඤ්ඤං, වංසඤ්ඤං, පෝරාණං, අසංකිණ්ණං, අසංකිණ්ණපුබ්බං, න සංකීයති න සංකීයිස්සති, අප්පතිකුට්ඨං සමණේහි බ්‍රාහ්මණේහි විඤ්ඤූහි.</p>
+  <p><b>“අව්‍යාපාදෝ භික්ඛවේ, ධම්මපදං අග්ගඤ්ඤං, රත්තඤ්ඤං, වංසඤ්ඤං, පෝරාණං, අසංකිණ්ණං, අසංකිණ්ණපුබ්බං, න සංකීයති, න සංකීයිස්සති, අප්පතිකුට්ඨං සමණේහි බ්‍රාහ්මණේහි විඤ්ඤූහි.</b></p>
+  <p><b>“සම්මාසති භික්ඛවේ, ධම්මපදං අග්ගඤ්ඤං, රත්තඤ්ඤං, වංසඤ්ඤං, පෝරාණං, අසංකිණ්ණං, අසංකිණ්ණපුබ්බං, න සංකීයති, න සංකීයිස්සති, අප්පතිකුට්ඨං සමණේහි බ්‍රාහ්මණේහි විඤ්ඤූහි.</b></p>
+  <p><b>“සම්මාසමාධි භික්ඛවේ, ධම්මපදං අග්ගඤ්ඤං, රත්තඤ්ඤං, වංසඤ්ඤං, පෝරාණං, අසංකිණ්ණං, අසංකිණ්ණපුබ්බං, න සංකීයති, න සංකීයිස්සති, අප්පතිකුට්ඨං සමණේහි බ්‍රාහ්මණේහි විඤ්ඤූහි.</b></p>
+  <p><b>ඉමානි ඛෝ, භික්ඛවේ, චත්තාරි ධම්මපදානි අග්ගඤ්ඤානි, රත්තඤ්ඤානි, වංසඤ්ඤානි, පෝරාණානි, අසංකිණ්ණානි, අසංකිණ්ණපුබ්බානි, න සංකීයන්ති, න සංකීයිස්සන්ති, අප්පතිකුට්ඨානි සමණේහි බ්‍රාහ්මණේහි විඤ්ඤූහී”ති.</b></p>
+  <p><b>“අනභිජ්ඣාලු විහරෙය්‍ය, අව්‍යාපන්නේන චේතසා;සතෝ ඒකග්ගචිත්තස්ස අජ්ඣත්තං සුසමාහිතෝ..</b></p>
+  <p><b>ධම්මපද සූත්‍රය – අංගුත්තර නිකාය, චතුක්ක නිපාතය</b></p>
+  <p><b>​“චත්තාරිමානි, භික්ඛවේ, ධම්මපදානි අග්ගඤ්ඤානි, රත්තඤ්ඤානි, වංසඤ්ඤානි, පෝරාණානි, අසංකිණ්ණානි, අසංකිණ්ණපුබ්බානි, න සංකීයන්ති, න සංකීයිස්සන්ති, අප්පතිකුට්ඨානි සමණේහි බ්‍රාහ්මණේහි විඤ්ඤූහි. කතමානි චත්තාරි?"</b></p>
+  <p>​මහණෙනි, මේ සතර ධර්මපදය අග්‍රයයි දැනගත යුතු වෙති. දීර්ඝ කාලයක් පැවතුණේ යැයි දතයුතු වෙති. ආර්යයන් වහන්සේලාගේ වංසය යැයි දතයුතු වෙති. පෞරාණික වෙති. අතීත බුද්ධාදී උතුමන් බැහැර නොකරන ලද්දාහු වෙති. වර්තමානයෙහිද බැහැර නොකරති. අනාගතයෙහි බැහැර නොකරනු ලබති. මහණ බමුණන් විසින්ද නුවණැතියන් විසින්ද ගර්හා නොකළහ. ඒ සතර කවරේද?</p>
+  <p><b>​“අනභිජ්ඣා භික්ඛවේ, ධම්මපදං අග්ගඤ්ඤං, රත්තඤ්ඤං, වංසඤ්ඤං, පෝරාණං, අසංකිණ්ණං, අසංකිණ්ණපුබ්බං, න සංකීයති න සංකීයිස්සති, අප්පතිකුට්ඨං සමණේහි බ්‍රාහ්මණේහි විඤ්ඤූහි.”</b></p>
+  <p>​මහණෙනි, අනභිජ්ඣා ධම්මපදය අග්‍රයයි දැනගත යුතු වෙති. දීර්ඝ කාලයක් පැවතුණේ යැයි දතයුතු වෙති. ආර්යයන් වහන්සේලාගේ වංසය යැයි දතයුතු වෙති. පෞරාණික වෙති. අතීත බුද්ධාදී උතුමන් බැහැර නොකරන ලද්දාහු වෙති. වර්තමානයෙහිද බැහැර නොකරති. අනාගතයෙහි බැහැර නොකරනු ලබති. මහණ බමුණන් විසින්ද නුවණැතියන් විසින්ද ගර්හා නොකළහ.</p>
+  <p><b>​“අව්‍යාපාදෝ භික්ඛවේ, ධම්මපදං අග්ගඤ්ඤං, රත්තඤ්ඤං, වංසඤ්ඤං, පෝරාණං, අසංකිණ්ණං, අසංකිණ්ණපුබ්බං, න සංකීයති, න සංකීයිස්සති, අප්පතිකුට්ඨං සමණේහි බ්‍රාහ්මණේහි විඤ්ඤූහි.”</b></p>
+  <p>​අව්‍යාපාද (මෛත්‍රිය) ධම්මපදය අග්‍රයයි දැනගත යුතු වෙති. දීර්ඝ කාලයක් පැවතුණේ යැයි දතයුතු වෙති. ආර්යයන් වහන්සේලාගේ වංසය යැයි දතයුතු වෙති. පෞරාණික වෙති. අතීත බුද්ධාදී උතුමන් බැහැර නොකරන ලද්දාහු වෙති. වර්තමානයෙහිද බැහැර නොකරති. අනාගතයෙහි බැහැර නොකරනු ලබති. මහණ බමුණන් විසින්ද නුවණැතියන් විසින්ද ගර්හා නොකළහ.</p>
+  <p><b>​“සම්මාසති භික්ඛවේ, ධම්මපදං අග්ගඤ්ඤං, රත්තඤ්ඤං, වංසඤ්ඤං, පෝරාණං, අසංකිණ්ණං, අසංකිණ්ණපුබ්බං, න සංකීයති, න සංකීයිස්සති, අප්පතිකුට්ඨං සමණේහි බ්‍රාහ්මණේහි විඤ්ඤූහි.”</b></p>
+  <p>​මහණෙනි, සම්මාසති ධම්මපදය අග්‍රයයි දැනගත යුතු වෙති. දීර්ඝ කාලයක් පැවතුණේ යැයි දතයුතු වෙති. ආර්යයන් වහන්සේලාගේ වංසය යැයි දතයුතු වෙති. පෞරාණික වෙති. අතීත බුද්ධාදී උතුමන් බැහැර නොකරන ලද්දාහු වෙති. වර්තමානයෙහිද බැහැර නොකරති. අනාගතයෙහි බැහැර නොකරනු ලබති. මහණ බමුණන් විසින්ද නුවණැතියන් විසින්ද ගර්හා නොකළහ.</p>
+  <p><b>​“සම්මාසමාධි භික්ඛවේ, ධම්මපදං අග්ගඤ්ඤං, රත්තඤ්ඤං, වංසඤ්ඤං, පෝරාණං, අසංකිණ්ණං, අසංකිණ්ණපුබ්බං, න සංකීයති, න සංකීයිස්සති, අප්පතිකුට්ඨං සමණේහි බ්‍රාහ්මණේහි විඤ්ඤූහි.”</b></p>
+  <p>​මහණෙනි, සම්මාසමාධි ධම්මපදය අග්‍රයයි දැනගත යුතු වෙති. දීර්ඝ කාලයක් පැවතුණේ යැයි දතයුතු වෙති. ආර්යයන් වහන්සේලාගේ වංසය යැයි දතයුතු වෙති. පෞරාණික වෙති. අතීත බුද්ධාදී උතුමන් බැහැර නොකරන ලද්දාහු වෙති. වර්තමානයෙහිද බැහැර නොකරති. අනාගතයෙහි බැහැර නොකරනු ලබති. මහණ බමුණන් විසින්ද නුවණැතියන් විසින්ද ගර්හා නොකළහ.</p>
+  <p><b>​“ඉමානි ඛෝ, භික්ඛවේ, චත්තාරි ධම්මපදානි අග්ගඤ්ඤානි, රත්තඤ්ඤානි, වංසඤ්ඤානි, පෝරාණානි, අසංකිණ්ණානි, අසංකිණ්ණපුබ්බානි, න සංකීයන්ති, න සංකීයිස්සන්ති, අප්පතිකුට්ඨානි සමණේහි බ්‍රාහ්මණේහි විඤ්ඤූහී”ති.</b></p>
+  <p>​මහණෙනි, මේ සතර ධර්මපදය අග්‍රයයි දැනගත යුතු වෙති. දීර්ඝ කාලයක් පැවතුණේ යැයි දතයුතු වෙති. ආර්යයන් වහන්සේලාගේ වංසය යැයි දතයුතු වෙති. පෞරාණික වෙති. අතීත බුද්ධාදී උතුමන් බැහැර නොකරන ලද්දාහු වෙති. වර්තමානයෙහිද බැහැර නොකරති. අනාගතයෙහි බැහැර නොකරනු ලබති. මහණ බමුණන් විසින්ද නුවණැතියන් විසින්ද ගර්හා නොකළහ. ඒ සතර කවරේද?</p>
+  <div class="gatha">
+    <p>​“අනභිජ්ඣාලු විහරෙය්‍ය, අව්‍යාපන්නේන චේතසා;</p>
+    <p>සතෝ ඒකග්ගචිත්තස්ස අජ්ඣත්තං සුසමාහිතෝ”ති.</p>
+  </div>
+  <p>​තෘෂ්ණාවෙන් තොර වූ සිතින්ද, මෛත්‍රී සහගත වූ සිතින්ද වාසය කරන්නේය. සිහියෙන් යුතු එකඟ වූ සිතින්ද, තමා තුළ මනාව සමාධිගත වූ සිතින්ද වාසය කරන්නේය.</p>
+  <div class="subhead">
+    <p>ධර්මාර්ථ විවරණය</p>
+  </div>
+  <p>​ධම්මපද යනු ධර්ම කොට්ඨාසයන්ය. මෙම දේශනාවෙහි ධර්ම කොට්ඨාස සතරක් පිළිබඳව දේශනා කර ඇත.</p>
+  <p>​අනභිජ්ඣා යනු අලෝභයයි. රූපාදී කාම වස්තුන්ට නොඇලෙන ස්වභාවයයි. අන්සතු දෙයට නොඇලෙන ස්වභාවයද අනභිජ්ඣාවයි. අලෝභය නම් වූ කුසල මූලයට නමකි. එය පළමුවන ධම්මපදයයි.</p>
+  <h3>​අව්‍යාපාදය යනු කුමක්ද?</h3>
+  <p>ව්‍යාපාදයට (ද්වේෂයට) විරුද්ධ වූ ධර්මය අව්‍යාපාදයයි. දෝසයෙන් තොරවීම, දෝස නොකරන ස්වභාවය, නොගැටෙන ස්වභාවය අව්‍යාපාදයයි. මෛත්‍රිය යනුද මෙයට නමකි. අද්වේෂ කුසල මූලයම අව්‍යාපාදය වන බව දත යුතුය. මෙය දෙවන ධම්මපදයයි.</p>
+  <p>​සම්මා සති යනු කුමක්ද?</p>
+  <p>සම්මා දිට්ඨිය පෙරටු කරගත්තා වූ සිහිය සම්මා සතිය යන නමින් හඳුන්වනු ලැබේ.</p>
+  <p>​කායානුපස්සනා සතිපට්ඨානය, වේදනානුපස්සනා සතිපට්ඨානය, චිත්තානුපස්සනා සතිපට්ඨානය, ධම්මානුපස්සනා සතිපට්ඨානය යන සතර සතිපට්ඨානයෙහි මනාකොට පිහිටුවන ලද සිහිය සම්මා සතියයි.</p>
+  <p>​සම්මා සමාධිය යනු කුමක්ද?</p>
+  <p>සම්මා සමාධිය විස්තර කිරීමේදී දීඝනිකායේ සච්චවිභංග සූත්‍රයෙහි රූපාවචර ධ්‍යාන හතර දක්වා ඇත. රූපාවචර ධ්‍යාන හතර සම්මා සමාධියයි. අරූපාවචර ධ්‍යාන හතරද සම්මා සමාධියයි. උපචාරය සහිත අෂ්ට සමාපත්ති සම්මා සමාධිය වන බව අටුවා මතයයි.</p>
+  <nav class="bottom"></nav>
+</div>
+
+    </main>
+
+   
+
+    <!-- INFO FOOTER -->
+    <footer class="site-footer">
+    
+        <p class="footer-text">
+            📜 මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත.<br>
+            තවත් වටිනා දහම් කරුණු දැන ගැනීමට
+            <a href="https://suththa.org/" target="_blank" rel="noopener">
+                suththa.org
+            </a>
+        </p>
+    
+        <div class="social-links">
+    
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" title="YouTube">
+                <span class="material-icons">smart_display</span>
+            </a>
+    
+            <!-- Facebook -->
+            <a href="https://facebook.com/" target="_blank" rel="noopener" title="Facebook">
+                <span class="material-icons">facebook</span>
+            </a>
+    
+            <!-- Telegram -->
+            <a href="https://t.me/" target="_blank" rel="noopener" title="Telegram">
+                <span class="material-icons">send</span>
+            </a>
+    
+        </div>
+    
+    </footer>
+    </div>
+    <script src="../../common/jquery-3.4.1.min.js"></script>
+    <script src="../../common/clipboard.min.js"></script>
+    <script src="../../common/book.js"></script>
+    <script src="../../common/mytheme.js"></script>
+    </body>
+    
+    </html>

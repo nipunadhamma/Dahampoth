@@ -988,5 +988,85 @@
     "category": 8,
     "featured": false,
     "order": 999
+  },
+  {
+    "title": "අනණ සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "anana-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/anana-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "අකුසල සමාපත්ති සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "akusala-samapaththi-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/akusala-samapaththi-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "අකුසල සමාපත්ති සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "anuggahitha-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/anuggahitha-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "අප්පස්සුත සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "appassutha-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/appassutha-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "බලදට්ඨබ්බ සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "baladattabba-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/baladattabba-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "බල විත්තත සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "bala-viththatha-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/bala-viththatha-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "චංකමානිසංස සූත්‍රය",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "chankamanisansa-suththa-an",
+    "cover": "",
+    "url": "https://suththa.org/main/books/chankamanisansa-suththa-an/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
+  },
+  {
+    "title": "දුතිය සේඛ සූත්‍රය.",
+    "author": "දොලොස්වල උදිතධීර හිමි",
+    "folder": "duthiya-seeka-suththa",
+    "cover": "",
+    "url": "https://suththa.org/main/books/duthiya-seeka-suththa/index.html",
+    "category": 8,
+    "featured": false,
+    "order": 999
   }
 ]

@@ -1221,15 +1221,109 @@ const bookList = [
     folder: "pancha-bogaadi-suththa-an",
     cover: "books-png/pancha-bogaadi-suththa-an.png",
     group: 8,
-    files: ["දොලොස්වල උදිතධීර හිමි", 2168, 2169],
-    source: "",
+    files: ["දොලොස්වල උදිතධීර හිමි", 2174, 2175],
+    source: " ",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "අනණ සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "anana-suththa-an",
+    cover: "books-png/anana-suththa-an.png",
+    group: 8,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2176, 2177],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "අකුසල සමාපත්ති සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "akusala-samapaththi-suththa-an",
+    cover: "books-png/akusala-samapaththi-suththa-an.png",
+    group: 8,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2178, 2179],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+   {
+    name: "අකුසල සමාපත්ති සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "anuggahitha-suththa-an",
+    cover: "books-png/akusala-samapaththi-suththa-an.png",
+    group: 8,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2180, 2181],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "අප්පස්සුත සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "appassutha-suththa-an",
+    cover: "books-png/appassutha-suththa-an.png",
+    group: 8,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2182, 2183],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "බලදට්ඨබ්බ සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "baladattabba-suththa-an",
+    cover: "books-png/baladattabba-suththa-an.png",
+    group: 8,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2184, 2185],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+ {
+    name: "බල විත්තත සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "bala-viththatha-suththa-an",
+    cover: "books-png/bala-viththatha-suththa-an.png",
+    group: 8,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2186, 2187],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "චංකමානිසංස සූත්‍රය",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "chankamanisansa-suththa-an",
+    cover: "books-png/chankamanisansa-suththa-an.png",
+    group: 8,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2188, 2189],
+    source: "docx",
+
+    output: "web",
+    force: true,
+  },
+  {
+    name: "දුතිය සේඛ සූත්‍රය.",
+    author: "දොලොස්වල උදිතධීර හිමි",
+    folder: "duthiya-seeka-suththa",
+    cover: "books-png/duthiya-seeka-suththa.png",
+    group: 8,
+    files: ["දොලොස්වල උදිතධීර හිමි", 2190, 2191],
+    source: "docx",
 
     output: "web",
     force: true,
   },
 ];
-
-
 module.exports = {
   bookList,
   isNodeEmpty,

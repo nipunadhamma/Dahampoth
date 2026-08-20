@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>බලදට්ඨබ්බ සූත්‍රය - බලදට්ඨබ්බ සූත්‍රය</title>
+
+    <meta name="description" content="බලදට්ඨබ්බ සූත්‍රය - දොලොස්වල උදිතධීර හිමි">
+    
+
+   
+    <meta name="keywords" content="KEYWORDSPLACEHOLDER">
+
+    <meta name="robots" content="index,follow">
+    
+   
+	<!-- Google Translate Widget Container -->
+<div id="google_translate_element" style="margin: 15px 0;"></div>
+
+<!-- Google Translate Script -->
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'si', // ඔබගේ වෙබ් අඩවියේ මූලික භාෂාව (ප්‍රධාන භාෂාව) මෙහි සඳහන් කරන්න
+            includedLanguages: 'si,ta,en,hi,fr,de', // පරිශීලකයින්ට ලබා දීමට අවශ්‍ය භාෂා (සිංහල, දෙමළ, ඉංග්‍රීසි ආදී වශයෙන් කැමති තරම් එකතු කළ හැක)
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+	
+	
+    <!-- ================= VIEWPORT ================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    
+    <!-- ================= OPEN GRAPH ================= -->
+   
+    <meta property="og:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://i.postimg.cc/Hx1hyKdc/og-books-500x300.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="300">
+
+    <!-- ================= TWITTER CARD ================= -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ත්‍රිපිටකය ආශ්‍රිත පොත්">
+    <meta name="twitter:description" content="මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත">
+    <meta name="twitter:image" content="https://suththa.org/common/og-books-500x300.png">
+    <!-- Open Graph -->
+    <meta property="og:title" content="බලදට්ඨබ්බ සූත්‍රය - බලදට්ඨබ්බ සූත්‍රය">
+    <meta property="og:description" content="බලදට්ඨබ්බ සූත්‍රය - දොලොස්වල උදිතධීර හිමි">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://suththa.org/common/og-books-500x300.png">
+    
+    <!-- ================= PWA ================= -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="../../common/manifest.json">
+
+    <link rel="canonical" href="https://suththa.org/main/books/baladattabba-suththa-an/1.html">
+    <link rel="apple-touch-icon" href="../../common/apple-touch-icon.png">
+    <link rel="icon" href="../../common/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../common/favicon-96x96.png">
+    <link rel="stylesheet" href="../../common/book.css">
+    <link rel="stylesheet" href="../../common/mybook.css" />
+    <link rel="stylesheet" href="./pre-book.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Moved inline styles from book container into internal CSS to avoid inline styles */
+        .book-container {
+            width: 100%;
+            max-width: 90%;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            align-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- TOP NAV BAR -->
+    <header>
+    
+        <h1>පොත් ලැයිස්තුව</h1>
+    
+        <div class="header-actions">
+    
+            <!-- FONT - BUTTON -->
+            <button class="icon-btn" onclick="changeFont(-1)" title="Decrease Font">
+                <span class="material-icons">text_decrease</span>
+            </button>
+    
+            <!-- FONT + BUTTON -->
+            <button class="icon-btn" onclick="changeFont(1)" title="Increase Font">
+                <span class="material-icons">text_increase</span>
+            </button>
+
+            <!-- Bookmark -->
+            <button class="icon-btn" onclick="goBookmarks()" title="සුරකින ලද පිටු">
+                <span class="material-icons">bookmark</span>
+            </button>
+    
+            <!-- Home -->
+            <button class="icon-btn" onclick="goHome()" title="මුල් පිටුව">
+                <span class="material-icons">home</span>
+            </button>
+    
+            <!-- Dark Mode -->
+            <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="Dark Mode">
+                <span class="material-icons" id="themeIcon">dark_mode</span>
+            </button>
+    
+        </div>
+    
+    </header>
+    <body>
+        <div book-folder="." class="book-container">
+
+
+    <!-- READING PROGRESS BAR -->
+    <div id="progress"></div>
+
+    <!-- BOOK CONTENT -->
+    <main class="reader">
+
+        <div class="content">
+  <nav class="top"><a class="button" href="../index.html"><i class="material-icons ">home</i></a><i class="material-icons ">navigate_next</i><a class="button" href="index.html#1"><i class="material-icons ">toc</i>බලදට්ඨබ්බ සූත්‍රය</a><i class="material-icons ">navigate_next</i></nav>
+  <div class="heading-bar">
+    <h1>බලදට්ඨබ්බ සූත්‍රය</h1><i class="material-icons star-icon undefined" data-bookmark="{&quot;ids&quot;:[1],&quot;headings&quot;:[&quot;බලදට්ඨබ්බ සූත්‍රය&quot;],&quot;book&quot;:{&quot;name&quot;:&quot;බලදට්ඨබ්බ සූත්‍රය&quot;,&quot;folder&quot;:&quot;baladattabba-suththa-an&quot;}}">star_outline</i><i class="material-icons share-icon" file-name="1.html">share</i>
+  </div>
+  <p><i>අංගුත්තර නිකාය පඤ්චක නිපාතෝ</i></p>
+  <p>​<b>පඤ්චිමානි භික්ඛවේ බලානි. කතමානි පඤ්ච: සද්ධාබලං, විරියබලං, සතිබලං, සමාධිබලං, පඤ්ඤාබලං.</b></p>
+  <p>​මහණෙනි, මේ බලධර්මයෝ පස් දෙනෙකි. එම පහ කවරේද: සද්ධා බලය, වීර්ය බලය, සති බලය, සමාධි බලය, ප්‍රඥා බලයයි.</p>
+  <p>​<b>කත්ථ ච භික්ඛවේ සද්ධාබලං දට්ඨබ්බං: චතුසු සෝතාපත්තියංගේසු එත්ථ සද්ධාබලං දට්ඨබ්බං.</b></p>
+  <p>මහණෙනි, සද්ධා බලය කොතැනක දත යුතුද? සෝතාපත්ති අංග හතර තුළය. එහි සද්ධා බලය දත යුතුය.</p>
+  <div class="subhead">
+    <p>(​අතිරේක විස්තරය:</p>
+  </div>
+  <h3>සෝතාපත්ති අංග හතර</h3>
+  <p>​බුදුරජාණන් වහන්සේ කෙරෙහි නොසෙල්වෙන පැහැදීම.</p>
+  <p>​ධර්ම රත්නය කෙරෙහි නොසෙල්වෙන පැහැදීම.</p>
+  <p>​සංඝරත්නය කෙරෙහි නොසෙල්වෙන පැහැදීම.</p>
+  <p>​ආර්යකාන්ත සීලය.</p>
+  <p>​මෙම සෝතාපත්ති අංග හතර සෝතාපත්ති සංයුත්තයෙහි බොහෝ සූත්‍රවල දක්නට ලැබේ. යමෙකු තුළ සෝතාපත්ති අංග හතර පිහිටා තිබේ නම්, ඔහු තුළ ශ්‍රද්ධාව ඇති බව දත යුතුය. ශ්‍රද්ධා බලය ඇති කරගැනීම සඳහා කැමති වන සත්පුරුෂයන් විසින් තෙරුවන් කෙරෙහි නොසෙල්වෙන, වෙනස් නොවන අචල ප්‍රසාදය ඇති කරගත යුතුය.) (අතිරේක විස්තරය අවසානයි)</p>
+  <p>​<b>කත්ථ ච භික්ඛවේ විරියබලං දට්ඨබ්බං: චතුසු සම්මප්පධානේසු එත්ථ විරියබලං දට්ඨබ්බං</b></p>
+  <p>.</p>
+  <p>මහණෙනි, වීර්යය බලය කුමක් තුළ දත යුතුද? සතර සම්‍යක්ප්‍රධාන වීර්යය තුළය. එහි වීර්ය බලය දත යුතුය.</p>
+  <p>​අතිරේක විස්තරය:</p>
+  <h3>සතර සම්‍යක්ප්‍රධාන වීර්යය යනු කුමක්ද?</h3>
+  <p>​නූපන්නා වූ අකුසල ධර්මයන් නූපදවීම පිණිස වීර්යය කරයි: නූපන්නා වූ අකුසල ධර්මයන් යනු මෙම අවස්ථාවේදී සිත තුළ නොපවතින ලෝභ, ද්වේශ, මෝහ යන අකුසලයන්ට කියන නමකි. ලෝභෝ අකුසලං, ලෝභෝ අකුසලමූලං. ලෝභය අකුසලයකි, ලෝභය අකුසල මූලයකි. මේ අනුව ලෝභ, දෝස, මෝහ අකුසලද වෙති, අකුසල මූලද වෙති. නූපන්නා වූ එම අකුසලයන් නූපදවීම පිණිස වීර්යය කිරීම පළමුවන සම්මප්පධාන වීර්යයයි.</p>
+  <p>​උපන්නා වූ අකුසල ධර්මයන් ප්‍රහාණය කිරීම පිණිස වීර්යය කිරීම: මෙහි උපන්නා වූ අකුසල ධර්මයන් යනු තමාගේ සිත තුළ බලවත්ව පවතින්නා වූ ලෝභ, දෝස, මෝහ යන අකුසලයන්ය. එම අකුසලයන් ප්‍රහාණය කිරීම පිණිස වීර්යය කිරීම දෙවන සම්‍යක්ප්‍රධාන වීර්යයයි.</p>
+  <p>​නූපන්නා වූ කුසල ධර්මයන් උපදවා ගැනීම පිණිස වීර්යය කිරීම: නූපන්නා වූ කුසල ධර්මයන් යනු දැනට සන්තානය තුළ නොපවතින සද්ධා, වීර්ය, සති, සමාධි, ප්‍රඥා ආදී කුසල ධර්මයන්ය. තවම උපදවාගෙන නැති සමථ භාවනා පිළිබඳ නුවණද, විදර්ශනා ඥානද, නූපන්නා වූ කුසලධර්මයන්ය. තවම උපදවාගෙන නැති බෝධිපාක්ෂික ධර්මයන්ද නූපන්නා වූ කුසලධර්මයන්ය.</p>
+  <p>​උපන්නා වූ කුසල ධර්මයන් වර්ධනය කර ගැනීම පිණිස වීර්යය කිරීම: උපන්නා වූ කුසල ධර්මයන් යනු දැනට සන්තානය තුළ උපදවාගෙන තිබෙන්නා වූ සති, සමාධි, ප්‍රඥා ආදී කුසල ධර්මයන්ය.</p>
+  <p>​මෙම සතර සම්‍යක්ප්‍රධාන වීර්යය යමෙකු තුළ තිබේ නම්, ඔහු තුළ වීර්ය බලය පිහිටා තිබේ.</p>
+  <p>​කත්ථ <b>ච භික්ඛවේ සතිබලං දට්ඨබ්බං: චතුසු සතිපට්ඨානේසු එත්ථ සතිබලං දට්ඨබ්බං.</b></p>
+  <p>මහණෙනි, සති බලය කුමක් තුළ දතයුතුද? සතර සතිපට්ඨාන ධර්ම තුළය. එහි සති බලය දතයුතුය.</p>
+  <p>​විශේෂ විස්තරය:</p>
+  <p>කායානුපස්සනා, වේදනානුපස්සනා, චිත්තානුපස්සනා, ධම්මානුපස්සනා යනුවෙන් සතිපට්ඨාන හතරකි. සති යනු සිහියට නමකි. පට්ඨානය යනු පිහිටුවා ගැනීමයි. සතර සතිපට්ඨානය පිළිබඳ බොහෝ විස්තර දීඝ නිකායේ සඳහන් වන මහා සතිපට්ඨාන සූත්‍රයෙන් දතයුතුය.</p>
+  <p>​<b>කත්ථ ච භික්ඛවේ සමාධිබලං දට්ඨබ්බං: චතුසු ඣානේසු එත්ථ සමාධිබලං දට්ඨබ්බං.</b></p>
+  <p>මහණෙනි, සමාධි බලය කුමක් තුළ දත යුතුද? ධ්‍යාන හතර තුළය. එම රූපාවචර ධ්‍යාන හතර තුළ සමාධි බලය දත යුතුය.</p>
+  <p>​<b>කත්ථ ච භික්ඛවේ පඤ්ඤාබලං දට්ඨබ්බං: චතුසු අරියසච්චේසු එත්ථ පඤ්ඤාබලං දට්ඨබ්බං.</b></p>
+  <p>මහණෙනි, ප්‍රඥා බලය කුමක් තුළ දත යුතුද? චතුරාර්ය සත්‍ය ධර්මයන් තුළය. එහි ප්‍රඥා බලය දත යුතුය.</p>
+  <p>​(දුක්ඛ, සමුදය, නිරෝධ, මාර්ග යන චතුරාර්ය සත්‍ය ධර්මයන් පිළිබඳ දැනුම වර්ධනය වන විට ප්‍රඥාවද වර්ධනය වෙයි.)</p>
+  <p>​<b>ඉමානි ඛෝ භික්ඛවේ පඤ්චබලානීති.</b></p>
+  <p>මහණෙනි, මේවා පංච බල ධර්මයෝය.</p>
+  <nav class="bottom"></nav>
+</div>
+
+    </main>
+
+   
+
+    <!-- INFO FOOTER -->
+    <footer class="site-footer">
+    
+        <p class="footer-text">
+            📜 මෙම පොත නිපුණධම්ම පුස්තකාලය මගින් ලබා දී ඇත.<br>
+            තවත් වටිනා දහම් කරුණු දැන ගැනීමට
+            <a href="https://suththa.org/" target="_blank" rel="noopener">
+                suththa.org
+            </a>
+        </p>
+    
+        <div class="social-links">
+    
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" title="YouTube">
+                <span class="material-icons">smart_display</span>
+            </a>
+    
+            <!-- Facebook -->
+            <a href="https://facebook.com/" target="_blank" rel="noopener" title="Facebook">
+                <span class="material-icons">facebook</span>
+            </a>
+    
+            <!-- Telegram -->
+            <a href="https://t.me/" target="_blank" rel="noopener" title="Telegram">
+                <span class="material-icons">send</span>
+            </a>
+    
+        </div>
+    
+    </footer>
+    </div>
+    <script src="../../common/jquery-3.4.1.min.js"></script>
+    <script src="../../common/clipboard.min.js"></script>
+    <script src="../../common/book.js"></script>
+    <script src="../../common/mytheme.js"></script>
+    </body>
+    
+    </html>
